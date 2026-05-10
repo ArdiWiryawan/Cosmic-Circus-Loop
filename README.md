@@ -26,5 +26,5 @@ Prototipe Tahap 1 (Detak Hiseris) sudah berjalan. Sistem ekonomi, fusi, dan meta
 
 ## 🎪 Kredit
 
-Game oleh **[Nama Kamu]**.  
+Game oleh **[Ardi Wiryawan]**.  
 Dokumen desain lengkap tersedia di [GDD.md](GDD.md).
