@@ -1,0 +1,18 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Obsidian
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/appearance.json
+
+# Node modules (if any)
+node_modules/
+
+# Local env files
+.env
+.env.local
