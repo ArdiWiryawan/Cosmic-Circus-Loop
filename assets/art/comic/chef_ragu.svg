@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-labelledby="t" data-art-id="chef_ragu">
+<title id="t">chef_ragu — Cosmic Circus Loop comic archive panel</title>
+<defs>
+    <pattern id="ht-chef_ragu" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(22)">
+    <circle cx="3.5" cy="3.5" r="1.85" fill="#1a0b02" opacity="0.95"/>
+  </pattern>
+    <pattern id="ht2-chef_ragu" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-18)">
+    <circle cx="4.5" cy="4.5" r="2.4" fill="#ff8a1e" opacity="0.85"/>
+  </pattern>
+    <pattern id="hx-chef_ragu" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(38)">
+    <line x1="0" y1="0" x2="0" y2="9" stroke="#1a0b02" stroke-width="1.6" opacity=".55"/>
+  </pattern>
+    <pattern id="gr-chef_ragu" width="64" height="64" patternUnits="userSpaceOnUse"><rect x="63.5" y="23.4" width="0.7" height="0.7" fill="#1a0b02" opacity="0.13"/><rect x="18.3" y="14.2" width="0.8" height="0.8" fill="#1a0b02" opacity="0.14"/><rect x="56.1" y="36.1" width="1.7" height="1.7" fill="#1a0b02" opacity="0.14"/><rect x="3.0" y="4.1" width="1.9" height="1.9" fill="#1a0b02" opacity="0.16"/><rect x="59.5" y="57.4" width="1.5" height="1.5" fill="#1a0b02" opacity="0.13"/><rect x="37.9" y="2.6" width="1.4" height="1.4" fill="#1a0b02" opacity="0.15"/><rect x="53.8" y="0.5" width="2.1" height="2.1" fill="#1a0b02" opacity="0.13"/><rect x="10.3" y="4.6" width="2.2" height="2.2" fill="#1a0b02" opacity="0.09"/><rect x="29.5" y="28.0" width="2.0" height="2.0" fill="#1a0b02" opacity="0.06"/><rect x="37.9" y="31.2" width="0.7" height="0.7" fill="#1a0b02" opacity="0.07"/><rect x="51.3" y="1.1" width="1.5" height="1.5" fill="#1a0b02" opacity="0.10"/><rect x="0.3" y="16.0" width="1.6" height="1.6" fill="#1a0b02" opacity="0.08"/><rect x="41.6" y="39.9" width="1.1" height="1.1" fill="#1a0b02" opacity="0.11"/><rect x="55.7" y="32.4" width="1.9" height="1.9" fill="#1a0b02" opacity="0.07"/><rect x="16.7" y="14.7" width="1.5" height="1.5" fill="#1a0b02" opacity="0.10"/><rect x="8.5" y="59.9" width="2.2" height="2.2" fill="#1a0b02" opacity="0.06"/></pattern>
+    <radialGradient id="vig-chef_ragu" cx="50%" cy="46%" r="72%">
+      <stop offset=".55" stop-color="#1a0b02" stop-opacity="0"/>
+      <stop offset="1" stop-color="#1a0b02" stop-opacity=".42"/>
+    </radialGradient>
+    <linearGradient id="sky-chef_ragu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff8a1e" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#7fe36b" stop-opacity=".06"/>
+    </linearGradient>
+  </defs>
+<rect x="0" y="0" width="1200" height="800" fill="#f6e2bf"/>
+
+      <rect x="0" y="0" width="1200" height="800" fill="#f6e2bf"/>
+      <rect x="0" y="430" width="1200" height="370" fill="#a3300a"/><g stroke="#1a0b02" stroke-width="2" opacity=".5"><line x1="600" y1="430" x2="0" y2="800"/><line x1="600" y1="430" x2="92.3076923076923" y2="800"/><line x1="600" y1="430" x2="184.6153846153846" y2="800"/><line x1="600" y1="430" x2="276.92307692307696" y2="800"/><line x1="600" y1="430" x2="369.2307692307692" y2="800"/><line x1="600" y1="430" x2="461.53846153846155" y2="800"/><line x1="600" y1="430" x2="553.8461538461539" y2="800"/><line x1="600" y1="430" x2="646.1538461538461" y2="800"/><line x1="600" y1="430" x2="738.4615384615385" y2="800"/><line x1="600" y1="430" x2="830.7692307692307" y2="800"/><line x1="600" y1="430" x2="923.0769230769231" y2="800"/><line x1="600" y1="430" x2="1015.3846153846154" y2="800"/><line x1="600" y1="430" x2="1107.6923076923078" y2="800"/><line x1="600" y1="430" x2="1200" y2="800"/><line x1="0" y1="442.29" x2="1200" y2="442.29"/><line x1="0" y1="475.89" x2="1200" y2="475.89"/><line x1="0" y1="529.14" x2="1200" y2="529.14"/><line x1="0" y1="601.25" x2="1200" y2="601.25"/><line x1="0" y1="691.67" x2="1200" y2="691.67"/></g>
+      <g stroke="#1a0b02" stroke-width="4" fill="#a3300a" opacity=".85">
+        <rect x="80" y="60" width="210" height="12"/><rect x="910" y="80" width="210" height="12"/>
+        <path d="M120 72v70q0 30 30 30h20q30 0 30 -30V72M950 92v60" fill="none"/>
+      </g>
+      <g transform="translate(600 300)"><g transform="translate(0 0) scale(1.3)" stroke="#1a0b02" stroke-width="4">
+    <path d="M-70 20q-40 -60 0 -80q-6 -50 44 -54q20 -34 56 -6q46 -12 44 44q34 34 -6 76Z" fill="#f6e2bf"/>
+    <rect x="-56" y="18" width="112" height="26" rx="4" fill="#f6e2bf"/>
+    <path d="M-56 32h112" stroke-width="2" opacity=".4"/>
+  </g></g>
+      <g transform="translate(600 420)">
+        <path d="M-120 40q120 70 240 0l-20 120q-100 40 -200 0Z" fill="#1a0b02"/>
+        <path d="M-120 40q120 70 240 0" fill="none" stroke="#f6e2bf" stroke-width="5"/>
+        <g stroke="#ff8a1e" stroke-width="4" opacity=".8">
+          <path d="M-70 -30q20 -50 40 0M-10 -40q20 -60 40 0M50 -30q20 -50 40 0" fill="none"/>
+        </g>
+      </g>
+      <g fill="#ff8a1e" stroke="#1a0b02" stroke-width="2">
+        <circle cx="360" cy="250" r="16"/><circle cx="830" cy="270" r="12"/><circle cx="760" cy="180" r="10"/>
+      </g>
+      <g fill="#7fe36b" stroke="#1a0b02" stroke-width="2">
+        <circle cx="430" cy="170" r="14"/><circle cx="880" cy="200" r="9"/>
+      </g>
+      <g transform="translate(300 620) rotate(-8)"><g transform="translate(0 0) rotate(0)"><rect x="-120" y="-24" width="240" height="48" rx="24" fill="#b9c2cc" stroke="#1a0b02" stroke-width="4"/><rect x="-117" y="-22" width="234" height="20.16" rx="14.399999999999999" fill="#f4f7fa"/><rect x="-115" y="5.76" width="230" height="13.440000000000001" rx="6.720000000000001" fill="#6b7480" opacity=".85"/></g></g>
+      <circle cx="416.95" cy="517.57" r="17.4" fill="#f6e2bf" opacity="0.3" stroke="#1a0b02" stroke-width="1.4"/><circle cx="363.89" cy="495.14" r="10.8" fill="#f6e2bf" opacity="0.1" stroke="#1a0b02" stroke-width="1.4"/><circle cx="470" cy="540" r="24" fill="#f6e2bf" stroke="#1a0b02" stroke-width="3"/><path d="M448.4 546a24 24 0 0 1 40.8 -12a24 24 0 0 0 -40.8 12Z" fill="#1a0b02" opacity=".28"/><circle cx="462.32" cy="531.36" r="5.28" fill="#f6e2bf"/>
+      <g fill="#ff8a1e" opacity="0.45"><path d="M271.75 328.67L268.04 338.41L258.06 338.38L247.47 334.83L254.13 325.71L257.31 315.67L264.41 323.48Z"/><path d="M321.68 203.64L317.29 210.35L309.46 214.49L299.6 209.58L304.13 199.88L309.2 191.63L318.61 195.28Z"/><path d="M291.8 239.16L288.9 245.45L282.59 244.78L277.97 242L277.54 236.1L282.77 234.3L288.65 233.17Z"/><path d="M180.99 392.23L174.41 399.96L165.37 404.82L159.07 396.65L158.36 387.47L166.62 385.12L176.27 382.17Z"/><path d="M82.35 370.39L77.98 375.23L73.16 374.59L67.58 373.54L68.57 367.72L72.66 363.98L77.89 365.66Z"/><path d="M335.78 172.79L332.5 182.78L323.08 179.19L317.91 175.99L316.54 168.94L323.04 166.26L332.9 162.31Z"/></g>
+    
+<rect x="10" y="10" width="1180" height="780" fill="none" stroke="#1a0b02" stroke-width="9"/>
+  <rect x="23" y="23" width="1154" height="754" fill="none" stroke="#1a0b02" stroke-width="1.6" opacity=".55"/>
+  <g stroke="#1a0b02" stroke-width="7" opacity=".9">
+    <path d="M0 0h44M0 0v44"/><path d="M1200 0h-44M1200 0v44"/>
+    <path d="M0 800h44M0 800v-44"/><path d="M1200 800h-44M1200 800v-44"/>
+  </g>
+<g opacity=".5">
+    <rect x="16" y="4" width="1180" height="780" fill="none" stroke="#ff8a1e" stroke-width="2"/>
+    <rect x="4" y="16" width="1180" height="780" fill="none" stroke="#7fe36b" stroke-width="2"/>
+  </g>
+<rect x="0" y="0" width="1200" height="800" fill="url(#gr-chef_ragu)"/>
+<rect x="0" y="0" width="1200" height="800" fill="url(#vig-chef_ragu)"/>
+</svg>

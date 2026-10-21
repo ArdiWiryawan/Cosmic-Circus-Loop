@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-labelledby="t" data-art-id="fusion_first">
+<title id="t">fusion_first — Cosmic Circus Loop comic archive panel</title>
+<defs>
+    <pattern id="ht-fusion_first" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(22)">
+    <circle cx="3.5" cy="3.5" r="1.85" fill="#0b0710" opacity="0.95"/>
+  </pattern>
+    <pattern id="ht2-fusion_first" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-18)">
+    <circle cx="4.5" cy="4.5" r="2.4" fill="#ff2bd6" opacity="0.85"/>
+  </pattern>
+    <pattern id="hx-fusion_first" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(38)">
+    <line x1="0" y1="0" x2="0" y2="9" stroke="#0b0710" stroke-width="1.6" opacity=".55"/>
+  </pattern>
+    <pattern id="gr-fusion_first" width="64" height="64" patternUnits="userSpaceOnUse"><rect x="18.7" y="16.7" width="1.0" height="1.0" fill="#0b0710" opacity="0.07"/><rect x="33.5" y="2.4" width="0.8" height="0.8" fill="#0b0710" opacity="0.06"/><rect x="1.0" y="48.7" width="1.0" height="1.0" fill="#0b0710" opacity="0.14"/><rect x="38.5" y="32.6" width="1.2" height="1.2" fill="#0b0710" opacity="0.09"/><rect x="15.0" y="26.9" width="0.9" height="0.9" fill="#0b0710" opacity="0.07"/><rect x="12.3" y="5.2" width="1.2" height="1.2" fill="#0b0710" opacity="0.08"/><rect x="42.7" y="58.0" width="1.1" height="1.1" fill="#0b0710" opacity="0.09"/><rect x="41.2" y="62.8" width="1.6" height="1.6" fill="#0b0710" opacity="0.11"/><rect x="8.2" y="38.7" width="0.8" height="0.8" fill="#0b0710" opacity="0.11"/><rect x="8.5" y="23.8" width="1.7" height="1.7" fill="#0b0710" opacity="0.13"/><rect x="52.3" y="55.3" width="1.2" height="1.2" fill="#0b0710" opacity="0.14"/><rect x="44.5" y="50.3" width="1.4" height="1.4" fill="#0b0710" opacity="0.14"/><rect x="43.0" y="47.1" width="1.8" height="1.8" fill="#0b0710" opacity="0.14"/><rect x="6.7" y="41.4" width="1.7" height="1.7" fill="#0b0710" opacity="0.07"/><rect x="21.8" y="28.9" width="0.8" height="0.8" fill="#0b0710" opacity="0.16"/><rect x="54.5" y="32.8" width="2.1" height="2.1" fill="#0b0710" opacity="0.06"/></pattern>
+    <radialGradient id="vig-fusion_first" cx="50%" cy="46%" r="72%">
+      <stop offset=".55" stop-color="#0b0710" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0b0710" stop-opacity=".42"/>
+    </radialGradient>
+    <linearGradient id="sky-fusion_first" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff2bd6" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#00ffff" stop-opacity=".06"/>
+    </linearGradient>
+  </defs>
+<rect x="0" y="0" width="1200" height="800" fill="#f3e6cf"/>
+
+      <rect x="0" y="0" width="1200" height="800" fill="#f3e6cf"/>
+      <circle cx="600" cy="400" r="330" fill="#0b0710"/>
+      <circle cx="600" cy="400" r="330" fill="none" stroke="#0b0710" stroke-width="8"/>
+      <path d="M270 70h660v660H270Z" fill="url(#ht-fusion)" opacity="0.16"/>
+      <g fill="none" stroke="#f3e6cf" stroke-width="3" opacity=".7">
+        <circle cx="600" cy="400" r="270"/><circle cx="600" cy="400" r="200" stroke-dasharray="14 12"/>
+        <path d="M600 150l220 140v240L600 670L380 530V290Z"/>
+        <path d="M600 190l180 115v210L600 630L420 515V305Z" stroke-dasharray="8 10"/>
+      </g>
+      <g fill="#00ffff" opacity="0.42"><path d="M690 400L1037.92 442.78L689.57 408.75Z"/><path d="M685.6 427.81L1003.26 576.01L682.49 436Z"/><path d="M672.81 452.9L929.13 692.01L667.32 459.73Z"/><path d="M652.9 472.81L822.79 779.43L645.57 477.61Z"/><path d="M627.81 485.6L694.63 829.7L619.36 487.89Z"/><path d="M600 490L557.22 837.92L591.25 489.57Z"/><path d="M572.19 485.6L423.99 803.26L564 482.49Z"/><path d="M547.1 472.81L307.99 729.13L540.27 467.32Z"/><path d="M527.19 452.9L220.57 622.79L522.39 445.57Z"/><path d="M514.4 427.81L170.3 494.63L512.11 419.36Z"/><path d="M510 400L162.08 357.22L510.43 391.25Z"/><path d="M514.4 372.19L196.74 223.99L517.51 364Z"/><path d="M527.19 347.1L270.87 107.99L532.68 340.27Z"/><path d="M547.1 327.19L377.21 20.57L554.43 322.39Z"/><path d="M572.19 314.4L505.37 -29.7L580.64 312.11Z"/><path d="M600 310L642.78 -37.92L608.75 310.43Z"/><path d="M627.81 314.4L776.01 -3.26L636 317.51Z"/><path d="M652.9 327.19L892.01 70.87L659.73 332.68Z"/><path d="M672.81 347.1L979.43 177.21L677.61 354.43Z"/><path d="M685.6 372.19L1029.7 305.37L687.89 380.64Z"/></g>
+      <circle cx="470" cy="360" r="104" fill="#f3e6cf" stroke="#0b0710" stroke-width="6"/>
+      <circle cx="470" cy="360" r="58" fill="#00ffff" stroke="#0b0710" stroke-width="4"/>
+      <circle cx="730" cy="450" r="88" fill="#f3e6cf" stroke="#0b0710" stroke-width="6"/>
+      <circle cx="730" cy="450" r="44" fill="#ff2bd6" stroke="#0b0710" stroke-width="4"/>
+      <g fill="#f3e6cf" opacity="0.5"><path d="M541.83 438.93L242.65 639.17L246.07 640.2L541.83 438.93Z"/><path d="M661.55 366.67L978.12 195.24L982.42 196.53L661.55 366.67Z"/><path d="M530.59 390.91L173.64 344.19L176.43 345.03L530.59 390.91Z"/><path d="M660.29 435.57L970.35 618.49L972.67 619.19L660.29 435.57Z"/><path d="M548.26 352.86L282.15 110.4L286.54 111.71L548.26 352.86Z"/><path d="M665.45 375.17L1002.04 247.46L1008.4 249.37L665.45 375.17Z"/><path d="M666.14 377.09L1006.31 259.26L1008.65 259.96L666.14 377.09Z"/><path d="M578.19 333.49L466 -8.59L469.58 -7.51L578.19 333.49Z"/><path d="M530 399.95L170 399.68L173.12 400.62L530 399.95Z"/><path d="M668.4 414.86L1020.2 491.29L1026.3 493.13L668.4 414.86Z"/><path d="M564.66 339.58L382.91 28.82L385.94 29.73L564.66 339.58Z"/><path d="M533.56 377.97L191.86 264.66L197.2 266.26L533.56 377.97Z"/><path d="M669.74 406L1028.42 436.84L1032.49 438.06L669.74 406Z"/><path d="M660.67 434.91L972.71 614.44L978.58 616.2L660.67 434.91Z"/><path d="M545.29 356.33L263.94 131.74L267.93 132.94L545.29 356.33Z"/><path d="M669.12 388.95L1024.61 332.13L1030.75 333.97L669.12 388.95Z"/><path d="M581.3 332.54L485.11 -14.37L488.27 -13.42L581.3 332.54Z"/><path d="M663.09 430.33L987.54 586.32L992.05 587.67L663.09 430.33Z"/><path d="M658.46 361.5L959.13 163.51L964.6 165.16L658.46 361.5Z"/><path d="M664.76 426.57L997.82 563.22L1002.41 564.6L664.76 426.57Z"/><path d="M665.89 423.62L1004.78 545.1L1007.25 545.84L665.89 423.62Z"/><path d="M668.49 385.54L1020.73 311.17L1026.05 312.77L668.49 385.54Z"/></g>
+      <g transform="translate(600 400)">
+        <circle r="56" fill="#f3e6cf" stroke="#0b0710" stroke-width="6"/>
+        <path d="M0 -36l32 18v36L0 36L-32 18V-18Z" fill="#ff2bd6" stroke="#0b0710" stroke-width="4"/>
+        <circle cx="-40" cy="22" r="10" fill="#00ffff" stroke="#0b0710" stroke-width="3"/>
+        <circle cx="38" cy="-32" r="8" fill="#ff2bd6" stroke="#0b0710" stroke-width="3"/>
+      </g>
+      <g stroke="#0b0710" stroke-width="6" fill="none">
+        <path d="M520 320l36 -28l30 34M680 440l36 30l28 -34"/>
+      </g>
+      <g fill="#0b0710" opacity=".55">
+        <circle cx="100" cy="100" r="5"/><circle cx="237" cy="189" r="9"/><circle cx="374" cy="278" r="13"/><circle cx="511" cy="367" r="17"/><circle cx="648" cy="456" r="5"/><circle cx="785" cy="545" r="9"/><circle cx="922" cy="634" r="13"/><circle cx="1059" cy="123" r="17"/><circle cx="196" cy="212" r="5"/><circle cx="333" cy="301" r="9"/>
+      </g>
+      <g fill="#ff2bd6" opacity="0.6"><path d="M654.36 236.71L653.24 240.63L649.24 240.53L645.47 238.94L646.43 234.94L649.33 233.3L651.7 234.71Z"/><path d="M397.36 120.84L396.99 123.91L393.97 123.32L392.27 121.93L392.63 119.92L393.9 118.05L396.79 118.02Z"/><path d="M374.44 119.36L369.13 123.15L365.2 123.38L360.63 122L358.66 115.78L364.94 114.2L370.56 113.79Z"/><path d="M612.99 287.11L612.23 296.99L601.9 297.8L592.3 292.91L591.01 280.68L602.64 279.63L614.45 274.43Z"/><path d="M238.42 192.2L237.78 198.94L230.85 199.02L225.67 195.44L228.13 190.14L230.4 183.43L235.93 187.77Z"/><path d="M285.9 221.84L284.82 228.21L277.36 232.25L268.86 227.08L272.91 218.55L278.26 215.34L283.37 217.28Z"/><path d="M828.06 189.54L821.91 193.38L817.27 196.43L810.49 193.56L812.94 186.7L817.01 181.49L823.28 183.98Z"/><path d="M184.37 290.93L183.29 298.08L175.96 298.04L169.1 295.01L172.41 288.44L175.72 282.79L180.22 287.62Z"/><path d="M899.44 223.97L896.82 237.6L882.53 238.97L870.4 231.46L870.88 216.71L881.99 206.6L897.64 209.31Z"/><path d="M663.71 247.3L662.42 258.24L650.47 261.44L644.4 251.78L643.4 242.34L651.82 239.08L658.19 241.66Z"/></g>
+    
+<rect x="10" y="10" width="1180" height="780" fill="none" stroke="#0b0710" stroke-width="9"/>
+  <rect x="23" y="23" width="1154" height="754" fill="none" stroke="#0b0710" stroke-width="1.6" opacity=".55"/>
+  <g stroke="#0b0710" stroke-width="7" opacity=".9">
+    <path d="M0 0h44M0 0v44"/><path d="M1200 0h-44M1200 0v44"/>
+    <path d="M0 800h44M0 800v-44"/><path d="M1200 800h-44M1200 800v-44"/>
+  </g>
+<g opacity=".5">
+    <rect x="16" y="4" width="1180" height="780" fill="none" stroke="#ff2bd6" stroke-width="2"/>
+    <rect x="4" y="16" width="1180" height="780" fill="none" stroke="#00ffff" stroke-width="2"/>
+  </g>
+<rect x="0" y="0" width="1200" height="800" fill="url(#gr-fusion_first)"/>
+<rect x="0" y="0" width="1200" height="800" fill="url(#vig-fusion_first)"/>
+</svg>

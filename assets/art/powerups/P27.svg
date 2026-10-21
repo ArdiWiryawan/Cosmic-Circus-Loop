@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-labelledby="title" data-art-id="P27">
+<title id="title">P27 Tiga Warna</title>
+<defs>
+  <radialGradient id="bg" cx="34%" cy="26%" r="88%">
+    <stop offset="0" stop-color="#131c32"/>
+    <stop offset=".58" stop-color="#0b101c"/>
+    <stop offset="1" stop-color="#0b0710"/>
+  </radialGradient>
+  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#00ffcc"/>
+    <stop offset=".55" stop-color="#ff00ff"/>
+    <stop offset="1" stop-color="#00ffcc"/>
+  </linearGradient>
+  <radialGradient id="vig" cx="50%" cy="46%" r="72%">
+    <stop offset=".55" stop-color="#0b0710" stop-opacity="0"/>
+    <stop offset="1" stop-color="#0b0710" stop-opacity=".62"/>
+  </radialGradient>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="3.2" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="5"/>
+  </filter>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" y="1" fill="#f6e8c8" opacity=".045"/>
+  </pattern>
+  <clipPath id="clip"><rect x="4" y="4" width="120" height="120" rx="22"/></clipPath>
+  
+</defs>
+<rect x="4" y="4" width="120" height="120" rx="22" fill="url(#bg)" stroke="#f6e8c8" stroke-opacity=".72" stroke-width="2"/>
+<g clip-path="url(#clip)">
+  <rect x="4" y="4" width="120" height="120" fill="url(#scan)"/>
+  <circle cx="64" cy="58" r="46" fill="#00ffcc" opacity=".08" filter="url(#soft)"/>
+  
+      <circle cx="64" cy="42" r="15" fill="#00ffcc" stroke="#f6e8c8" stroke-opacity=".4" stroke-width="2" filter="url(#glow)"/>
+      <circle cx="42" cy="80" r="15" fill="#ff00ff" stroke="#f6e8c8" stroke-opacity=".35" stroke-width="2" filter="url(#glow)"/>
+      <circle cx="86" cy="80" r="15" fill="#ffd700" stroke="#f6e8c8" stroke-opacity=".35" stroke-width="2" filter="url(#glow)"/>
+      <path d="M56 50 48 68M72 50l8 18M52 88h24" fill="none" stroke="#f6e8c8" stroke-width="2" stroke-dasharray="3 5" opacity=".35"/>
+      <circle cx="59" cy="37" r="4" fill="#fff" opacity=".7"/><circle cx="37" cy="75" r="4" fill="#fff" opacity=".6"/><circle cx="81" cy="75" r="4" fill="#fff" opacity=".6"/>
+      <path d="M102 34L102.79 37.21L106 38L102.79 38.79L102 42L101.21 38.79L98 38L101.21 37.21Z" fill="#00ffcc" opacity="0.7"/>
+    
+  <rect x="4" y="4" width="120" height="120" fill="url(#vig)"/>
+  <rect x="7" y="7" width="114" height="114" rx="20" fill="none" stroke="#00ffcc" stroke-width="5" opacity=".22" filter="url(#soft)"/>
+  <rect x="9" y="9" width="110" height="110" rx="18" fill="none" stroke="#f6e8c8" stroke-opacity=".08" stroke-width="2"/>
+</g>
+<rect x="10" y="10" width="108" height="108" rx="18" fill="none" stroke="#00ffcc" stroke-opacity=".2"/>
+<g stroke="#00ffcc" stroke-width="2" stroke-linecap="round" opacity=".55">
+  <path d="M18 12h8M12 18v8M110 12h-8M116 18v8M18 116h8M12 110v-8M110 116h-8M116 110v-8"/>
+</g>
+</svg>

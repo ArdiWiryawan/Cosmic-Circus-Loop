@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-labelledby="t" data-art-id="taster">
+<title id="t">taster — Cosmic Circus Loop comic archive panel</title>
+<defs>
+    <pattern id="ht-taster" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(22)">
+    <circle cx="3.5" cy="3.5" r="1.85" fill="#1a0b02" opacity="0.95"/>
+  </pattern>
+    <pattern id="ht2-taster" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-18)">
+    <circle cx="4.5" cy="4.5" r="2.4" fill="#ff8a1e" opacity="0.85"/>
+  </pattern>
+    <pattern id="hx-taster" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(38)">
+    <line x1="0" y1="0" x2="0" y2="9" stroke="#1a0b02" stroke-width="1.6" opacity=".55"/>
+  </pattern>
+    <pattern id="gr-taster" width="64" height="64" patternUnits="userSpaceOnUse"><rect x="34.7" y="61.8" width="1.7" height="1.7" fill="#1a0b02" opacity="0.06"/><rect x="52.0" y="50.1" width="0.7" height="0.7" fill="#1a0b02" opacity="0.13"/><rect x="33.9" y="26.8" width="2.1" height="2.1" fill="#1a0b02" opacity="0.07"/><rect x="25.8" y="14.1" width="0.7" height="0.7" fill="#1a0b02" opacity="0.08"/><rect x="45.3" y="4.7" width="2.0" height="2.0" fill="#1a0b02" opacity="0.14"/><rect x="59.0" y="13.8" width="0.9" height="0.9" fill="#1a0b02" opacity="0.08"/><rect x="2.3" y="21.2" width="1.2" height="1.2" fill="#1a0b02" opacity="0.13"/><rect x="47.0" y="26.3" width="2.0" height="2.0" fill="#1a0b02" opacity="0.06"/><rect x="18.9" y="13.4" width="1.1" height="1.1" fill="#1a0b02" opacity="0.10"/><rect x="35.9" y="27.8" width="1.5" height="1.5" fill="#1a0b02" opacity="0.11"/><rect x="41.0" y="43.5" width="1.2" height="1.2" fill="#1a0b02" opacity="0.11"/><rect x="8.4" y="37.0" width="1.5" height="1.5" fill="#1a0b02" opacity="0.09"/><rect x="21.6" y="1.3" width="0.9" height="0.9" fill="#1a0b02" opacity="0.08"/><rect x="55.9" y="59.9" width="1.0" height="1.0" fill="#1a0b02" opacity="0.14"/><rect x="20.9" y="0.0" width="1.3" height="1.3" fill="#1a0b02" opacity="0.12"/><rect x="39.3" y="27.3" width="1.0" height="1.0" fill="#1a0b02" opacity="0.12"/></pattern>
+    <radialGradient id="vig-taster" cx="50%" cy="46%" r="72%">
+      <stop offset=".55" stop-color="#1a0b02" stop-opacity="0"/>
+      <stop offset="1" stop-color="#1a0b02" stop-opacity=".42"/>
+    </radialGradient>
+    <linearGradient id="sky-taster" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff8a1e" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#7fe36b" stop-opacity=".06"/>
+    </linearGradient>
+  </defs>
+<rect x="0" y="0" width="1200" height="800" fill="#f6e2bf"/>
+
+      <rect x="0" y="0" width="1200" height="800" fill="#1a0b02"/>
+      <path d="M0 0h1200v800H0Z" fill="url(#ht-taster)" opacity="0.3"/>
+      <g transform="translate(600 400)">
+        <circle r="300" fill="#f6e2bf" opacity=".07"/>
+        <circle r="210" fill="#ff8a1e" opacity=".12"/>
+      </g>
+      <circle cx="470" cy="380" r="120" fill="#f6e2bf" stroke="#1a0b02" stroke-width="3"/><path d="M362 410a120 120 0 0 1 204 -60a120 120 0 0 0 -204 60Z" fill="#1a0b02" opacity=".28"/><circle cx="431.6" cy="336.8" r="26.4" fill="#f6e2bf"/>
+      <g fill="#1a0b02" opacity=".55">
+        <path d="M470 300a120 120 0 0 1 120 120h-120Z"/>
+        <path d="M350 380a120 120 0 0 1 120 -120v120Z" opacity=".5"/>
+      </g>
+      <circle cx="470" cy="380" r="120" fill="none" stroke="#1a0b02" stroke-width="5"/>
+      <g transform="translate(560 400)"><g transform="translate(0 0) rotate(-6)" stroke="#1a0b02" stroke-width="4">
+    <path d="M0 0q260 -150 520 0q-260 82.5 -520 0Z" fill="#ff8a1e"/>
+    <path d="M93.6 0q166.4 -52.5 332.8 0" fill="none" stroke="#1a0b02" opacity=".5"/>
+  </g></g>
+      <g fill="#1a0b02" opacity=".8">
+        <circle cx="640" cy="392" r="4"/><circle cx="692" cy="408" r="5"/><circle cx="744" cy="392" r="6"/><circle cx="796" cy="408" r="7"/><circle cx="848" cy="392" r="8"/><circle cx="900" cy="408" r="9"/><circle cx="952" cy="392" r="10"/>
+      </g>
+      <g transform="translate(250 690) rotate(-6)"><g transform="translate(0 0) rotate(0)"><rect x="-160" y="-24" width="320" height="48" rx="24" fill="#d8b984" stroke="#1a0b02" stroke-width="4"/><rect x="-157" y="-22" width="314" height="20.16" rx="14.399999999999999" fill="#efd9b0"/><rect x="-155" y="5.76" width="310" height="13.440000000000001" rx="6.720000000000001" fill="#9c7642" opacity=".85"/></g></g>
+      <g fill="#ff8a1e" opacity="0.45"><path d="M948.14 352.76L1159.68 239.4L1161.02 239.8L948.14 352.76Z"/><path d="M953.13 363.59L1176.66 276.19L1179.22 276.96L953.13 363.59Z"/><path d="M912.93 315.16L1039.98 111.54L1042.48 112.29L912.93 315.16Z"/><path d="M956.62 374.23L1188.52 312.4L1191.74 313.37L956.62 374.23Z"/><path d="M920.47 320.35L1065.58 129.19L1067.36 129.73L920.47 320.35Z"/><path d="M955.97 371.91L1186.31 304.51L1189.52 305.47L955.97 371.91Z"/><path d="M824.4 306.55L738.97 82.27L742.11 83.21L824.4 306.55Z"/><path d="M944.34 346.27L1146.75 217.31L1150.26 218.37L944.34 346.27Z"/><path d="M836.9 302.71L781.45 69.2L784.6 70.14L836.9 302.71Z"/><path d="M959.71 392.33L1199 373.91L1200.72 374.42L959.71 392.33Z"/><path d="M883.95 302.91L941.44 69.9L944.56 70.83L883.95 302.91Z"/><path d="M941.97 342.71L1138.68 205.23L1140.93 205.9L941.97 342.71Z"/></g>
+      <g fill="#ff8a1e" opacity="0.4"><path d="M337.37 242.17L329.06 255.27L316.6 250.97L304.2 249.11L303.34 234.81L314.62 224.69L325.26 233.82Z"/><path d="M953.47 254.02L944.27 266.02L930.8 271.07L927.01 257.72L924.4 249.06L932.35 243.74L940.48 246.76Z"/><path d="M670.11 99.02L662.6 105.48L655.19 108.92L644.84 105.09L648.87 94.89L654.27 85.07L663.42 91.54Z"/><path d="M934.17 102.21L932.66 108.33L926.5 107.79L924.45 103.82L921.86 99.37L926.42 96.3L930.64 98.62Z"/><path d="M74.38 192.25L73 199.76L65.28 199.82L60.11 195.57L58.98 188.38L65.67 186.39L70.35 188.06Z"/><path d="M388.2 63.34L389.27 68.86L383.25 70.38L380.51 65.43L381.97 61.94L383.5 57.37L388.18 59.18Z"/><path d="M909.26 194.59L906.62 198.5L901.66 202.66L896.79 197.83L899.36 192.6L902.38 189.65L908.59 188.21Z"/><path d="M661.75 134.34L659.7 141.77L652.19 141.26L644.01 139.04L643.32 129.31L652.45 128.55L659.75 126.84Z"/></g>
+    
+<rect x="10" y="10" width="1180" height="780" fill="none" stroke="#1a0b02" stroke-width="9"/>
+  <rect x="23" y="23" width="1154" height="754" fill="none" stroke="#1a0b02" stroke-width="1.6" opacity=".55"/>
+  <g stroke="#1a0b02" stroke-width="7" opacity=".9">
+    <path d="M0 0h44M0 0v44"/><path d="M1200 0h-44M1200 0v44"/>
+    <path d="M0 800h44M0 800v-44"/><path d="M1200 800h-44M1200 800v-44"/>
+  </g>
+<g opacity=".5">
+    <rect x="16" y="4" width="1180" height="780" fill="none" stroke="#ff8a1e" stroke-width="2"/>
+    <rect x="4" y="16" width="1180" height="780" fill="none" stroke="#7fe36b" stroke-width="2"/>
+  </g>
+<rect x="0" y="0" width="1200" height="800" fill="url(#gr-taster)"/>
+<rect x="0" y="0" width="1200" height="800" fill="url(#vig-taster)"/>
+</svg>

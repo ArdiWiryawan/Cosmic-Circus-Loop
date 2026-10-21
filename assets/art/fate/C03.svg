@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-labelledby="title" data-art-id="C03">
+<title id="title">C03 Standar Kosmik</title>
+<defs>
+  <radialGradient id="bg" cx="34%" cy="26%" r="88%">
+    <stop offset="0" stop-color="#2e280d"/>
+    <stop offset=".58" stop-color="#171408"/>
+    <stop offset="1" stop-color="#0b0710"/>
+  </radialGradient>
+  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#ffd700"/>
+    <stop offset=".55" stop-color="#00ffcc"/>
+    <stop offset="1" stop-color="#ffd700"/>
+  </linearGradient>
+  <radialGradient id="vig" cx="50%" cy="46%" r="72%">
+    <stop offset=".55" stop-color="#0b0710" stop-opacity="0"/>
+    <stop offset="1" stop-color="#0b0710" stop-opacity=".62"/>
+  </radialGradient>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="3.2" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="5"/>
+  </filter>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" y="1" fill="#f6e8c8" opacity=".045"/>
+  </pattern>
+  <clipPath id="clip"><rect x="4" y="4" width="120" height="120" rx="22"/></clipPath>
+  
+</defs>
+<rect x="4" y="4" width="120" height="120" rx="22" fill="url(#bg)" stroke="#ffe066" stroke-opacity=".72" stroke-width="2"/>
+<g clip-path="url(#clip)">
+  <rect x="4" y="4" width="120" height="120" fill="url(#scan)"/>
+  <circle cx="64" cy="58" r="46" fill="#ffd700" opacity=".08" filter="url(#soft)"/>
+  
+      
+  <path d="M28 108V56a36 36 0 0 1 72 0v52Z" fill="#081c20" stroke="#00ffcc" stroke-width="2"/>
+  <path d="M34 106V57a30 30 0 0 1 60 0v49Z" fill="none" stroke="#ffd700" stroke-width="1.5" stroke-dasharray="3 5" opacity=".7"/>
+  <path d="M64 12L65.85 16.45L70.66 16.84L67 19.97L68.11 24.66L64 22.15L59.89 24.66L61 19.97L57.34 16.84L62.15 16.45Z" fill="#ffd700"/>
+  
+        <path d="M64 38v58" stroke="#ffd700" stroke-width="3" stroke-linecap="round"/>
+        <path d="M64 44L68.76 55.45L81.12 56.44L71.7 64.5L74.58 76.56L64 70.1L53.42 76.56L56.3 64.5L46.88 56.44L59.24 55.45Z" fill="#ffd700" filter="url(#glow)"/>
+        <circle cx="64" cy="62" r="5" fill="#00ffcc"/>
+        <path d="M40 52q-9 8 0 16M88 52q9 8 0 16" fill="none" stroke="#00ffcc" stroke-width="2" stroke-dasharray="3 4"/>
+        <path d="M40 84q-9 8 0 16M88 84q9 8 0 16" fill="none" stroke="#00ffcc" stroke-width="2" stroke-dasharray="3 4" opacity=".6"/>
+        <path d="M54 96h20" stroke="#f6e8c8" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+      
+  <circle cx="37" cy="96" r="2" fill="#00ffcc"/>
+  <circle cx="91" cy="96" r="2" fill="#ffd700"/>
+
+    
+  <rect x="4" y="4" width="120" height="120" fill="url(#vig)"/>
+  <rect x="7" y="7" width="114" height="114" rx="20" fill="none" stroke="#ffd700" stroke-width="5" opacity=".22" filter="url(#soft)"/>
+  <rect x="9" y="9" width="110" height="110" rx="18" fill="none" stroke="#f6e8c8" stroke-opacity=".08" stroke-width="2"/>
+</g>
+<rect x="10" y="10" width="108" height="108" rx="18" fill="none" stroke="#ffd700" stroke-opacity=".2"/>
+<g stroke="#ffd700" stroke-width="2" stroke-linecap="round" opacity=".55">
+  <path d="M18 12h8M12 18v8M110 12h-8M116 18v8M18 116h8M12 110v-8M110 116h-8M116 110v-8"/>
+</g>
+</svg>

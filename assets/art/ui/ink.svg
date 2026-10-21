@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-labelledby="title" data-art-id="ink">
+<title id="title">Ink</title>
+<defs>
+  <radialGradient id="uiGlow" cx="50%" cy="42%" r="62%">
+    <stop offset="0" stop-color="#b388ff" stop-opacity=".18"/>
+    <stop offset="1" stop-color="#b388ff" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="uiClip"><rect x="4" y="4" width="120" height="120" rx="24"/></clipPath>
+</defs>
+<rect x="4" y="4" width="120" height="120" rx="24" fill="#0b0710" fill-opacity=".55" stroke="#b388ff" stroke-opacity=".3" stroke-width="2"/>
+<g clip-path="url(#uiClip)">
+  <rect x="4" y="4" width="120" height="120" fill="url(#uiGlow)"/>
+  
+      <path d="M40 74q-10-18 8-28 2-20 24-18 16-14 32 2 20 0 20 20 12 16-4 30 2 18-18 22-14 12-30 2-20 4-24-14-12-6-8-16Z" fill="#1a1024" stroke="#b388ff" stroke-width="2"/>
+      <path d="M84 44 106 20l-4 20-14 10Z" fill="#b388ff" stroke="#f6e8c8" stroke-width="2"/>
+      <path d="M102 22 84 44" stroke="#0b0710" stroke-width="2"/>
+      <circle cx="96" cy="96" r="3" fill="#b388ff"/>
+      <path d="M32 96q-4 8 0 12M44 104q-4 8 0 10M84 110q-3 6 0 8" stroke="#b388ff" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+    
+</g>
+</svg>

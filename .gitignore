@@ -16,3 +16,8 @@ node_modules/
 # Local env files
 .env
 .env.local
+
+# Agent / tooling scratch
+.claude/
+.playwright-mcp/
+.worktrees/

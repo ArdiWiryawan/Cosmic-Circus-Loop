@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-labelledby="title" data-art-id="curtain">
+<title id="title">Curtain</title>
+<defs>
+  <radialGradient id="uiGlow" cx="50%" cy="42%" r="62%">
+    <stop offset="0" stop-color="#b3122b" stop-opacity=".18"/>
+    <stop offset="1" stop-color="#b3122b" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="uiClip"><rect x="4" y="4" width="120" height="120" rx="24"/></clipPath>
+</defs>
+<rect x="4" y="4" width="120" height="120" rx="24" fill="#0b0710" fill-opacity=".55" stroke="#b3122b" stroke-opacity=".3" stroke-width="2"/>
+<g clip-path="url(#uiClip)">
+  <rect x="4" y="4" width="120" height="120" fill="url(#uiGlow)"/>
+  
+      <path d="M4 4h36q10 36 6 120H4Z" fill="#5c0d1c"/>
+      <path d="M124 4H88q-10 36-6 120h42Z" fill="#5c0d1c"/>
+      <path d="M20 4q8 40 4 120M36 4q6 36 2 120M108 4q-8 40-4 120M92 4q-6 36-2 120" stroke="#b3122b" stroke-width="2" opacity=".85"/>
+      <path d="M40 4q4 60 0 120M88 4q-4 60 0 120" stroke="#ffd700" stroke-width="2" opacity=".5"/>
+      <path d="M40 4h48v14q-24 10-48 0Z" fill="#7a1224" stroke="#ffd700" stroke-width="2"/>
+      <path d="M52 124q12-18 12-38M76 124q-12-18-12-38" stroke="#ffd700" stroke-width="2" opacity=".45"/>
+      <circle cx="64" cy="80" r="3" fill="#ffd700" opacity=".6"/>
+    
+</g>
+</svg>

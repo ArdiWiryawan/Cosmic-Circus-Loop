@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="title" data-art-id="unseeing_eye">
+<title id="title">unseeing_eye - Mata Buta</title>
+<defs>
+  <radialGradient id="bg" cx="50%" cy="34%" r="84%">
+    <stop offset="0" stop-color="#241c0b"/>
+    <stop offset=".62" stop-color="#241c0b"/>
+    <stop offset="1" stop-color="#0b0710"/>
+  </radialGradient>
+  <radialGradient id="spot" cx="50%" cy="42%" r="55%">
+    <stop offset="0" stop-color="#ffd700" stop-opacity=".28"/>
+    <stop offset=".6" stop-color="#ffd700" stop-opacity=".07"/>
+    <stop offset="1" stop-color="#ffd700" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#ffd700"/>
+    <stop offset="1" stop-color="#f6e8c8"/>
+  </linearGradient>
+  <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0b0710" stop-opacity="0"/>
+    <stop offset="1" stop-color="#0b0710" stop-opacity=".88"/>
+  </linearGradient>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="7"/>
+  </filter>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" y="1" fill="#f6e8c8" opacity=".04"/>
+  </pattern>
+  <clipPath id="clip"><rect x="8" y="8" width="240" height="240" rx="30"/></clipPath>
+  
+</defs>
+<rect x="8" y="8" width="240" height="240" rx="30" fill="url(#bg)" stroke="#f6e8c8" stroke-opacity=".62" stroke-width="2"/>
+<g clip-path="url(#clip)">
+  <rect x="8" y="8" width="240" height="240" fill="url(#scan)"/>
+  <path d="M8 8h68c-16 76-16 166 0 240H8Z" fill="#ffd700" opacity=".09"/>
+  <path d="M248 8h-68c16 76 16 166 0 240h68Z" fill="#ffd700" opacity=".05"/>
+  <ellipse cx="128" cy="138" rx="116" ry="120" fill="url(#spot)"/>
+  
+      <path d="M40 236q10-42 44-52h88q34 10 44 52Z" fill="#241c0b" stroke="#ffd700" stroke-opacity=".45" stroke-width="2"/>
+      <circle cx="128" cy="116" r="58" fill="#f6e8c8" stroke="#ffd700" stroke-width="3"/>
+      <circle cx="128" cy="116" r="34" fill="#ffd700" opacity=".8"/>
+      <circle cx="128" cy="116" r="16" fill="#0b0710"/>
+      <circle cx="120" cy="106" r="6" fill="#fff" opacity=".9"/>
+      <path d="M72 94q56-26 112 0v18q-56 24-112 0Z" fill="#1a1206" stroke="#ffd700" stroke-width="2"/>
+      <path d="M76 100q52-18 104 0" fill="none" stroke="#ffd700" stroke-opacity=".5" stroke-width="2"/>
+      <path d="M76 112q52 20 104 0" fill="none" stroke="#ffd700" stroke-opacity=".3" stroke-width="2"/>
+      <g stroke="#f6e8c8" stroke-width="3" stroke-linecap="round">
+        <path d="M80 64l-8-12M100 54l-4-14M128 50v-14M156 54l4-14M176 64l8-12"/>
+      </g>
+      <path d="M68 164q-20 10-26 34M188 164q20 10 26 34" fill="none" stroke="#ffd700" stroke-width="3" stroke-linecap="round"/>
+      <path d="M60 200l-10 16M64 202l-2 18M196 200l10 16M192 202l2 18" stroke="#ffd700" stroke-width="3" stroke-linecap="round"/>
+      <path d="M96 190q32 12 64 0" fill="none" stroke="#ffd700" stroke-opacity=".25" stroke-width="2"/>
+    
+  <rect x="8" y="212" width="240" height="36" fill="url(#floor)"/>
+  <rect x="12" y="12" width="232" height="232" rx="27" fill="none" stroke="#ffd700" stroke-width="5" opacity=".18" filter="url(#soft)"/>
+  <rect x="14" y="14" width="228" height="228" rx="24" fill="none" stroke="#f6e8c8" stroke-opacity=".07" stroke-width="2"/>
+  <g fill="#ffd700" opacity=".45">
+    <circle cx="32" cy="226" r="2"/><circle cx="52" cy="226" r="2"/><circle cx="72" cy="226" r="2"/>
+    <circle cx="184" cy="226" r="2"/><circle cx="204" cy="226" r="2"/><circle cx="224" cy="226" r="2"/>
+  </g>
+</g>
+<rect x="18" y="18" width="220" height="220" rx="22" fill="none" stroke="#f6e8c8" stroke-opacity=".14"/>
+<g stroke="#ffd700" stroke-width="3" stroke-linecap="round" opacity=".55">
+  <path d="M34 68V34h34M222 34h-34M222 34v34M34 188v34h34M222 222h-34M222 222v-34"/>
+</g>
+</svg>

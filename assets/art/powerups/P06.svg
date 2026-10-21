@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-labelledby="title" data-art-id="P06">
+<title id="title">P06 Bola Hantu</title>
+<defs>
+  <radialGradient id="bg" cx="34%" cy="26%" r="88%">
+    <stop offset="0" stop-color="#0b2630"/>
+    <stop offset=".58" stop-color="#0a141c"/>
+    <stop offset="1" stop-color="#0b0710"/>
+  </radialGradient>
+  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#00ffcc"/>
+    <stop offset=".55" stop-color="#8effe9"/>
+    <stop offset="1" stop-color="#00ffcc"/>
+  </linearGradient>
+  <radialGradient id="vig" cx="50%" cy="46%" r="72%">
+    <stop offset=".55" stop-color="#0b0710" stop-opacity="0"/>
+    <stop offset="1" stop-color="#0b0710" stop-opacity=".62"/>
+  </radialGradient>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="3.2" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="5"/>
+  </filter>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" y="1" fill="#f6e8c8" opacity=".045"/>
+  </pattern>
+  <clipPath id="clip"><rect x="4" y="4" width="120" height="120" rx="22"/></clipPath>
+  
+</defs>
+<rect x="4" y="4" width="120" height="120" rx="22" fill="url(#bg)" stroke="#f6e8c8" stroke-opacity=".72" stroke-width="2"/>
+<g clip-path="url(#clip)">
+  <rect x="4" y="4" width="120" height="120" fill="url(#scan)"/>
+  <circle cx="64" cy="58" r="46" fill="#00ffcc" opacity=".08" filter="url(#soft)"/>
+  
+      <g filter="url(#glow)">
+        <path d="M64 26c-19 0-31 15-31 33v40l8-7 8 7 7-7 8 7 8-7 8 7 8-7 7 7V59c0-18-12-33-31-33Z" fill="url(#acc)" opacity=".55" stroke="#00ffcc" stroke-width="2"/>
+      </g>
+      <circle cx="53" cy="58" r="5" fill="#0b0710"/><circle cx="75" cy="58" r="5" fill="#0b0710"/>
+      <path d="M59 71q5 5 10 0" fill="none" stroke="#0b0710" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="64" cy="60" r="25" fill="none" stroke="#f6e8c8" stroke-opacity=".22" stroke-width="2" stroke-dasharray="4 5"/>
+      <path d="M30 30L30.79 33.21L34 34L30.79 34.79L30 38L29.21 34.79L26 34L29.21 33.21Z" fill="#00ffcc" opacity="0.8"/>
+      <path d="M98 79L98.59 81.41L101 82L98.59 82.59L98 85L97.41 82.59L95 82L97.41 81.41Z" fill="#f6e8c8" opacity="0.6"/>
+    
+  <rect x="4" y="4" width="120" height="120" fill="url(#vig)"/>
+  <rect x="7" y="7" width="114" height="114" rx="20" fill="none" stroke="#00ffcc" stroke-width="5" opacity=".22" filter="url(#soft)"/>
+  <rect x="9" y="9" width="110" height="110" rx="18" fill="none" stroke="#f6e8c8" stroke-opacity=".08" stroke-width="2"/>
+</g>
+<rect x="10" y="10" width="108" height="108" rx="18" fill="none" stroke="#00ffcc" stroke-opacity=".2"/>
+<g stroke="#00ffcc" stroke-width="2" stroke-linecap="round" opacity=".55">
+  <path d="M18 12h8M12 18v8M110 12h-8M116 18v8M18 116h8M12 110v-8M110 116h-8M116 110v-8"/>
+</g>
+</svg>

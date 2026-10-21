@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="title" data-art-id="echo">
+<title id="title">echo - Echo</title>
+<defs>
+  <radialGradient id="bg" cx="50%" cy="34%" r="84%">
+    <stop offset="0" stop-color="#0c2422"/>
+    <stop offset=".62" stop-color="#0c2422"/>
+    <stop offset="1" stop-color="#0b0710"/>
+  </radialGradient>
+  <radialGradient id="spot" cx="50%" cy="42%" r="55%">
+    <stop offset="0" stop-color="#00ffcc" stop-opacity=".28"/>
+    <stop offset=".6" stop-color="#00ffcc" stop-opacity=".07"/>
+    <stop offset="1" stop-color="#00ffcc" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#00ffcc"/>
+    <stop offset="1" stop-color="#f6e8c8"/>
+  </linearGradient>
+  <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#0b0710" stop-opacity="0"/>
+    <stop offset="1" stop-color="#0b0710" stop-opacity=".88"/>
+  </linearGradient>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="7"/>
+  </filter>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" y="1" fill="#f6e8c8" opacity=".04"/>
+  </pattern>
+  <clipPath id="clip"><rect x="8" y="8" width="240" height="240" rx="30"/></clipPath>
+  
+</defs>
+<rect x="8" y="8" width="240" height="240" rx="30" fill="url(#bg)" stroke="#f6e8c8" stroke-opacity=".62" stroke-width="2"/>
+<g clip-path="url(#clip)">
+  <rect x="8" y="8" width="240" height="240" fill="url(#scan)"/>
+  <path d="M8 8h68c-16 76-16 166 0 240H8Z" fill="#00ffcc" opacity=".09"/>
+  <path d="M248 8h-68c16 76 16 166 0 240h68Z" fill="#00ffcc" opacity=".05"/>
+  <ellipse cx="128" cy="138" rx="116" ry="120" fill="url(#spot)"/>
+  
+      <g fill="none" stroke="#00ffcc" opacity=".28">
+        <circle cx="128" cy="112" r="76" stroke-width="2"/><circle cx="128" cy="112" r="62" stroke-width="2"/>
+      </g>
+      <path d="M52 236q6-46 44-56h64q38 10 44 56Z" fill="#0c2422" stroke="#00ffcc" stroke-opacity=".5" stroke-width="2"/>
+      <circle cx="128" cy="112" r="46" fill="#0e2f2b" stroke="#00ffcc" stroke-width="3"/>
+      <circle cx="128" cy="112" r="32" fill="none" stroke="#00ffcc" stroke-opacity=".65" stroke-width="2" stroke-dasharray="6 5"/>
+      <circle cx="128" cy="112" r="18" fill="#00ffcc" opacity=".16"/>
+      <circle cx="128" cy="112" r="9" fill="#d8fff8"/>
+      <circle cx="128" cy="112" r="4" fill="#0b0710"/>
+      <path d="M112 148q16 10 32 0" fill="none" stroke="#00ffcc" stroke-width="2" opacity=".7"/>
+      <path d="M74 112q-18-10-26-2M182 112q18-10 26-2" fill="none" stroke="#00ffcc" stroke-width="3" stroke-linecap="round" opacity=".55"/>
+      <path d="M70 138q-20 8-26 22M186 138q20 8 26 22" fill="none" stroke="#00ffcc" stroke-width="2" stroke-linecap="round" opacity=".4"/>
+      <circle cx="128" cy="60" r="3" fill="#00ffcc"/><circle cx="128" cy="164" r="3" fill="#00ffcc"/>
+    
+  <rect x="8" y="212" width="240" height="36" fill="url(#floor)"/>
+  <rect x="12" y="12" width="232" height="232" rx="27" fill="none" stroke="#00ffcc" stroke-width="5" opacity=".18" filter="url(#soft)"/>
+  <rect x="14" y="14" width="228" height="228" rx="24" fill="none" stroke="#f6e8c8" stroke-opacity=".07" stroke-width="2"/>
+  <g fill="#00ffcc" opacity=".45">
+    <circle cx="32" cy="226" r="2"/><circle cx="52" cy="226" r="2"/><circle cx="72" cy="226" r="2"/>
+    <circle cx="184" cy="226" r="2"/><circle cx="204" cy="226" r="2"/><circle cx="224" cy="226" r="2"/>
+  </g>
+</g>
+<rect x="18" y="18" width="220" height="220" rx="22" fill="none" stroke="#f6e8c8" stroke-opacity=".14"/>
+<g stroke="#00ffcc" stroke-width="3" stroke-linecap="round" opacity=".55">
+  <path d="M34 68V34h34M222 34h-34M222 34v34M34 188v34h34M222 222h-34M222 222v-34"/>
+</g>
+</svg>

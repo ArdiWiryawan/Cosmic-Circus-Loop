@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-labelledby="t" data-art-id="auditor">
+<title id="t">auditor — Cosmic Circus Loop comic archive panel</title>
+<defs>
+    <pattern id="ht-auditor" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(22)">
+    <circle cx="3.5" cy="3.5" r="1.85" fill="#08060a" opacity="0.95"/>
+  </pattern>
+    <pattern id="ht2-auditor" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-18)">
+    <circle cx="4.5" cy="4.5" r="2.4" fill="#ff3333" opacity="0.85"/>
+  </pattern>
+    <pattern id="hx-auditor" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(38)">
+    <line x1="0" y1="0" x2="0" y2="9" stroke="#08060a" stroke-width="1.6" opacity=".55"/>
+  </pattern>
+    <pattern id="gr-auditor" width="64" height="64" patternUnits="userSpaceOnUse"><rect x="42.6" y="24.4" width="1.3" height="1.3" fill="#08060a" opacity="0.09"/><rect x="25.3" y="15.5" width="1.5" height="1.5" fill="#08060a" opacity="0.16"/><rect x="21.8" y="41.3" width="1.4" height="1.4" fill="#08060a" opacity="0.07"/><rect x="30.4" y="61.3" width="1.1" height="1.1" fill="#08060a" opacity="0.16"/><rect x="46.1" y="33.3" width="1.5" height="1.5" fill="#08060a" opacity="0.14"/><rect x="62.2" y="60.7" width="1.6" height="1.6" fill="#08060a" opacity="0.15"/><rect x="14.9" y="10.4" width="0.9" height="0.9" fill="#08060a" opacity="0.09"/><rect x="16.6" y="61.8" width="1.7" height="1.7" fill="#08060a" opacity="0.08"/><rect x="10.5" y="0.8" width="2.0" height="2.0" fill="#08060a" opacity="0.08"/><rect x="26.2" y="31.0" width="1.7" height="1.7" fill="#08060a" opacity="0.16"/><rect x="25.2" y="25.1" width="1.1" height="1.1" fill="#08060a" opacity="0.15"/><rect x="32.5" y="24.0" width="1.1" height="1.1" fill="#08060a" opacity="0.09"/><rect x="32.4" y="55.5" width="1.9" height="1.9" fill="#08060a" opacity="0.08"/><rect x="38.9" y="13.8" width="2.0" height="2.0" fill="#08060a" opacity="0.16"/><rect x="63.4" y="10.9" width="1.7" height="1.7" fill="#08060a" opacity="0.16"/><rect x="7.3" y="7.7" width="1.8" height="1.8" fill="#08060a" opacity="0.13"/></pattern>
+    <radialGradient id="vig-auditor" cx="50%" cy="46%" r="72%">
+      <stop offset=".55" stop-color="#08060a" stop-opacity="0"/>
+      <stop offset="1" stop-color="#08060a" stop-opacity=".42"/>
+    </radialGradient>
+    <linearGradient id="sky-auditor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff3333" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#ffd700" stop-opacity=".06"/>
+    </linearGradient>
+  </defs>
+<rect x="0" y="0" width="1200" height="800" fill="#f6e8c8"/>
+
+      <rect x="0" y="0" width="1200" height="800" fill="#08060a"/>
+      <path d="M0 0h1200v800H0Z" fill="url(#ht2-aud)" opacity="0.18"/>
+      <g transform="translate(840 400) rotate(4)"><g transform="translate(0 0) scale(1.05)" stroke="#08060a" stroke-width="4">
+    <rect x="-150" y="-230" width="300" height="460" rx="18" fill="#5c0016"/>
+    <rect x="-118" y="-196" width="236" height="96" rx="8" fill="#f6e8c8"/>
+    <rect x="-96" y="-172" width="150" height="14" fill="#08060a" opacity=".3"/>
+    <g fill="#f6e8c8" stroke-width="2">
+      <rect x="-118" y="-66" width="64" height="56" rx="6"/><rect x="-36" y="-66" width="64" height="56" rx="6"/><rect x="46" y="-66" width="64" height="56" rx="6"/><rect x="-118" y="8" width="64" height="56" rx="6"/><rect x="-36" y="8" width="64" height="56" rx="6"/><rect x="46" y="8" width="64" height="56" rx="6"/><rect x="-118" y="82" width="64" height="56" rx="6"/><rect x="-36" y="82" width="64" height="56" rx="6"/><rect x="46" y="82" width="64" height="56" rx="6"/><rect x="-118" y="156" width="64" height="56" rx="6"/><rect x="-36" y="156" width="64" height="56" rx="6"/><rect x="46" y="156" width="64" height="56" rx="6"/>
+    </g>
+    <rect x="-118" y="160" width="236" height="52" rx="8" fill="#ff3333"/>
+  </g></g>
+      <g fill="#ff3333" stroke="#08060a" stroke-width="3">
+        <circle cx="120" cy="220" r="9"/><circle cx="199" cy="317" r="13"/><circle cx="278" cy="414" r="17"/><circle cx="357" cy="511" r="9"/><circle cx="436" cy="608" r="13"/><circle cx="515" cy="285" r="17"/><circle cx="594" cy="382" r="9"/><circle cx="153" cy="479" r="13"/><circle cx="232" cy="576" r="17"/><circle cx="311" cy="253" r="9"/><circle cx="390" cy="350" r="13"/><circle cx="469" cy="447" r="17"/><circle cx="548" cy="544" r="9"/><circle cx="627" cy="221" r="13"/><circle cx="186" cy="318" r="17"/><circle cx="265" cy="415" r="9"/>
+      </g>
+      <g stroke="#f6e8c8" stroke-width="2" opacity=".4">
+        <path d="M60 160h360"/><path d="M60 240h360"/><path d="M60 320h360"/><path d="M60 400h360"/><path d="M60 480h360"/><path d="M60 560h360"/><path d="M60 640h360"/>
+      </g>
+      <g transform="translate(330 600) rotate(-16)"><g transform="translate(0 0) rotate(0)"><rect x="-158" y="-32" width="316" height="64" rx="48" fill="#ff3333" opacity="0.2"/><rect x="-150" y="-24" width="300" height="48" rx="24" fill="#d8b984" stroke="#08060a" stroke-width="4"/><rect x="-147" y="-22" width="294" height="20.16" rx="14.399999999999999" fill="#efd9b0"/><rect x="-145" y="5.76" width="290" height="13.440000000000001" rx="6.720000000000001" fill="#9c7642" opacity=".85"/></g></g>
+      <circle cx="439.87" cy="478.68" r="19.6" fill="#f6e8c8" opacity="0.37" stroke="#08060a" stroke-width="1.4"/><circle cx="399.74" cy="437.36" r="15.2" fill="#f6e8c8" opacity="0.23" stroke="#08060a" stroke-width="1.4"/><circle cx="359.61" cy="396.04" r="10.8" fill="#f6e8c8" opacity="0.1" stroke="#08060a" stroke-width="1.4"/><circle cx="480" cy="520" r="24" fill="#f6e8c8" stroke="#08060a" stroke-width="3"/><path d="M458.4 526a24 24 0 0 1 40.8 -12a24 24 0 0 0 -40.8 12Z" fill="#08060a" opacity=".28"/><circle cx="472.32" cy="511.36" r="5.28" fill="#f6e8c8"/>
+      <g fill="#ff3333" opacity="0.45"><path d="M648.41 350.2L785.56 39.09L788.82 40.07L648.41 350.2Z"/><path d="M550.96 350.48L412.01 40.17L416.81 41.61L550.96 350.48Z"/><path d="M675.59 366.8L889.78 102.75L893.29 103.8L675.59 366.8Z"/><path d="M492.04 407.61L186.16 259.17L189.96 260.31L492.04 407.61Z"/><path d="M480.9 445.33L143.45 403.76L145.55 404.38L480.9 445.33Z"/><path d="M714.33 423.54L1038.26 320.25L1043.2 321.74L714.33 423.54Z"/><path d="M714.51 424.13L1038.97 322.5L1042.2 323.47L714.51 424.13Z"/><path d="M606.17 340.16L623.67 0.61L626.04 1.32L606.17 340.16Z"/><path d="M480.74 473.29L142.83 510.96L147.23 512.28L480.74 473.29Z"/><path d="M579.5 341.76L521.41 6.76L524.69 7.75L579.5 341.76Z"/><path d="M719.85 454L1059.42 436.99L1062.89 438.03L719.85 454Z"/><path d="M496.99 398.45L205.12 224.05L207.92 224.89L496.99 398.45Z"/><path d="M716.78 432.4L1047.67 354.19L1051.01 355.2L716.78 432.4Z"/><path d="M520.3 370.29L294.5 116.1L297.7 117.06L520.3 370.29Z"/><path d="M645.44 348.94L774.18 34.25L777.89 35.37L645.44 348.94Z"/><path d="M534.98 359.14L350.77 73.36L354.56 74.5L534.98 359.14Z"/></g>
+      <g fill="#ff3333" opacity="0.45"><path d="M461.75 238.59L460.09 240.61L457.6 242.42L454.63 240.44L455.62 237.21L457.58 234.63L461.37 234.96Z"/><path d="M316.79 62.94L317.08 66.49L313.27 67.22L310 64.98L309.86 60.82L313.74 60.72L316 60.74Z"/><path d="M561.2 94.49L558.07 102.12L549.4 105.85L544.36 98.17L540.14 88.79L549.66 84.28L556.6 88.72Z"/><path d="M382.34 74.88L376.44 81.44L368.1 88.56L360.4 80.09L364.36 71.58L369.39 66.9L378.87 65.29Z"/><path d="M163.32 248.33L155.21 255.94L145.89 262.63L138.85 253.29L135.93 241.97L146.73 237.73L155.12 240.84Z"/><path d="M125.7 74.89L126.85 87.93L114.46 83.59L103.31 81.21L103.5 68.65L114.5 66.35L125.56 63.46Z"/><path d="M526.72 129.87L523.31 134.78L517.85 136.64L511.85 133.5L512.61 126.6L518.14 124.36L525.5 122.21Z"/></g>
+    
+<rect x="10" y="10" width="1180" height="780" fill="none" stroke="#08060a" stroke-width="9"/>
+  <rect x="23" y="23" width="1154" height="754" fill="none" stroke="#08060a" stroke-width="1.6" opacity=".55"/>
+  <g stroke="#08060a" stroke-width="7" opacity=".9">
+    <path d="M0 0h44M0 0v44"/><path d="M1200 0h-44M1200 0v44"/>
+    <path d="M0 800h44M0 800v-44"/><path d="M1200 800h-44M1200 800v-44"/>
+  </g>
+<g opacity=".5">
+    <rect x="16" y="4" width="1180" height="780" fill="none" stroke="#ff3333" stroke-width="2"/>
+    <rect x="4" y="16" width="1180" height="780" fill="none" stroke="#ffd700" stroke-width="2"/>
+  </g>
+<rect x="0" y="0" width="1200" height="800" fill="url(#gr-auditor)"/>
+<rect x="0" y="0" width="1200" height="800" fill="url(#vig-auditor)"/>
+</svg>

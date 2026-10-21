@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-labelledby="title" data-art-id="erase">
+<title id="title">Erase</title>
+<defs>
+  <radialGradient id="uiGlow" cx="50%" cy="42%" r="62%">
+    <stop offset="0" stop-color="#00ffcc" stop-opacity=".18"/>
+    <stop offset="1" stop-color="#00ffcc" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="uiClip"><rect x="4" y="4" width="120" height="120" rx="24"/></clipPath>
+</defs>
+<rect x="4" y="4" width="120" height="120" rx="24" fill="#0b0710" fill-opacity=".55" stroke="#00ffcc" stroke-opacity=".3" stroke-width="2"/>
+<g clip-path="url(#uiClip)">
+  <rect x="4" y="4" width="120" height="120" fill="url(#uiGlow)"/>
+  
+      <g transform="rotate(-18 64 64)">
+        <rect x="34" y="50" width="60" height="34" rx="8" fill="#f6e8c8" stroke="#00ffcc" stroke-width="2"/>
+        <rect x="34" y="50" width="26" height="34" rx="8" fill="#00ffcc" opacity=".75"/>
+        <path d="M60 50v34" stroke="#0b0710" stroke-width="2" opacity=".4"/>
+      </g>
+      <path d="M22 96q22-10 40-4M82 100q14-6 24 0" stroke="#00ffcc" stroke-width="3" stroke-linecap="round" opacity=".45"/>
+      <g fill="#00ffcc" opacity=".7"><circle cx="34" cy="100" r="2"/><circle cx="44" cy="106" r="1.5"/><circle cx="90" cy="104" r="2"/><circle cx="100" cy="98" r="1.5"/></g>
+      <path d="M20 110h88" stroke="#f6e8c8" stroke-width="2" opacity=".18"/>
+    
+</g>
+</svg>

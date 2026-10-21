@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-labelledby="t" data-art-id="archivist">
+<title id="t">archivist — Cosmic Circus Loop comic archive panel</title>
+<defs>
+    <pattern id="ht-archivist" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(22)">
+    <circle cx="3.5" cy="3.5" r="1.85" fill="#0a0a0c" opacity="0.95"/>
+  </pattern>
+    <pattern id="ht2-archivist" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-18)">
+    <circle cx="4.5" cy="4.5" r="2.4" fill="#00ffff" opacity="0.85"/>
+  </pattern>
+    <pattern id="hx-archivist" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(38)">
+    <line x1="0" y1="0" x2="0" y2="9" stroke="#0a0a0c" stroke-width="1.6" opacity=".55"/>
+  </pattern>
+    <pattern id="gr-archivist" width="64" height="64" patternUnits="userSpaceOnUse"><rect x="28.5" y="26.5" width="1.6" height="1.6" fill="#0a0a0c" opacity="0.15"/><rect x="31.5" y="12.4" width="1.3" height="1.3" fill="#0a0a0c" opacity="0.09"/><rect x="2.4" y="24.0" width="1.2" height="1.2" fill="#0a0a0c" opacity="0.13"/><rect x="56.8" y="36.3" width="1.7" height="1.7" fill="#0a0a0c" opacity="0.12"/><rect x="50.5" y="60.3" width="2.2" height="2.2" fill="#0a0a0c" opacity="0.10"/><rect x="18.7" y="21.0" width="0.7" height="0.7" fill="#0a0a0c" opacity="0.08"/><rect x="31.7" y="51.3" width="1.9" height="1.9" fill="#0a0a0c" opacity="0.10"/><rect x="57.3" y="35.4" width="1.9" height="1.9" fill="#0a0a0c" opacity="0.06"/><rect x="19.5" y="14.6" width="1.2" height="1.2" fill="#0a0a0c" opacity="0.12"/><rect x="18.4" y="28.4" width="1.5" height="1.5" fill="#0a0a0c" opacity="0.11"/><rect x="44.2" y="15.1" width="0.7" height="0.7" fill="#0a0a0c" opacity="0.09"/><rect x="30.0" y="28.5" width="2.1" height="2.1" fill="#0a0a0c" opacity="0.13"/><rect x="26.3" y="0.1" width="2.2" height="2.2" fill="#0a0a0c" opacity="0.11"/><rect x="37.6" y="42.6" width="1.0" height="1.0" fill="#0a0a0c" opacity="0.07"/><rect x="58.7" y="58.6" width="1.4" height="1.4" fill="#0a0a0c" opacity="0.11"/><rect x="21.3" y="44.9" width="1.6" height="1.6" fill="#0a0a0c" opacity="0.11"/></pattern>
+    <radialGradient id="vig-archivist" cx="50%" cy="46%" r="72%">
+      <stop offset=".55" stop-color="#0a0a0c" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0a0a0c" stop-opacity=".42"/>
+    </radialGradient>
+    <linearGradient id="sky-archivist" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00ffff" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#ff00ff" stop-opacity=".06"/>
+    </linearGradient>
+  </defs>
+<rect x="0" y="0" width="1200" height="800" fill="#c4a47a"/>
+
+      <rect x="0" y="0" width="1200" height="800" fill="#0a0a0c"/>
+      <rect x="0" y="300" width="1200" height="500" fill="#6b4a2a"/><g stroke="#0a0a0c" stroke-width="2" opacity=".5"><line x1="600" y1="300" x2="0" y2="800"/><line x1="600" y1="300" x2="133.33333333333331" y2="800"/><line x1="600" y1="300" x2="266.66666666666663" y2="800"/><line x1="600" y1="300" x2="400" y2="800"/><line x1="600" y1="300" x2="533.3333333333333" y2="800"/><line x1="600" y1="300" x2="666.6666666666667" y2="800"/><line x1="600" y1="300" x2="800" y2="800"/><line x1="600" y1="300" x2="933.3333333333334" y2="800"/><line x1="600" y1="300" x2="1066.6666666666665" y2="800"/><line x1="600" y1="300" x2="1200" y2="800"/><line x1="0" y1="316.61" x2="1200" y2="316.61"/><line x1="0" y1="362.01" x2="1200" y2="362.01"/><line x1="0" y1="433.97" x2="1200" y2="433.97"/><line x1="0" y1="531.42" x2="1200" y2="531.42"/><line x1="0" y1="653.61" x2="1200" y2="653.61"/></g>
+      <g transform="translate(140 330) rotate(-4)">
+        <g transform="translate(0 0)">
+    <rect x="0" y="0" width="920" height="420" rx="6" fill="#c4a47a" stroke="#0a0a0c" stroke-width="5"/>
+    <rect x="456" y="0" width="8" height="420" fill="#6b4a2a" opacity=".35"/>
+    <g stroke="#0a0a0c" stroke-width="2" opacity=".6"><line x1="20" y1="22" x2="442" y2="22"/><line x1="478" y1="22" x2="900" y2="22"/><line x1="20" y1="64.22222222222223" x2="442" y2="64.22222222222223"/><line x1="478" y1="64.22222222222223" x2="900" y2="64.22222222222223"/><line x1="20" y1="106.44444444444444" x2="442" y2="106.44444444444444"/><line x1="478" y1="106.44444444444444" x2="900" y2="106.44444444444444"/><line x1="20" y1="148.66666666666669" x2="442" y2="148.66666666666669"/><line x1="478" y1="148.66666666666669" x2="900" y2="148.66666666666669"/><line x1="20" y1="190.88888888888889" x2="442" y2="190.88888888888889"/><line x1="478" y1="190.88888888888889" x2="900" y2="190.88888888888889"/><line x1="20" y1="233.11111111111111" x2="442" y2="233.11111111111111"/><line x1="478" y1="233.11111111111111" x2="900" y2="233.11111111111111"/><line x1="20" y1="275.33333333333337" x2="442" y2="275.33333333333337"/><line x1="478" y1="275.33333333333337" x2="900" y2="275.33333333333337"/><line x1="20" y1="317.55555555555554" x2="442" y2="317.55555555555554"/><line x1="478" y1="317.55555555555554" x2="900" y2="317.55555555555554"/><line x1="20" y1="359.77777777777777" x2="442" y2="359.77777777777777"/><line x1="478" y1="359.77777777777777" x2="900" y2="359.77777777777777"/></g></g>
+        <g stroke="#0a0a0c" stroke-width="2" opacity=".65">
+          <path d="M60 52q40 -10 80 0t80 0t80 0" fill="none"/><path d="M60 92q40 -10 80 0t80 0t80 0" fill="none"/><path d="M60 132q40 -10 80 0t80 0t80 0" fill="none"/><path d="M60 172q40 -10 80 0t80 0t80 0" fill="none"/><path d="M60 212q40 -10 80 0t80 0t80 0" fill="none"/><path d="M60 252q40 -10 80 0t80 0t80 0" fill="none"/><path d="M60 292q40 -10 80 0t80 0t80 0" fill="none"/><path d="M60 332q40 -10 80 0t80 0t80 0" fill="none"/><path d="M60 372q40 -10 80 0t80 0t80 0" fill="none"/>
+        </g>
+        <g fill="#00ffff" opacity=".8"><circle cx="640" cy="120" r="26"/><circle cx="700" cy="230" r="16"/><circle cx="600" cy="300" r="12"/></g>
+      </g>
+      <g transform="translate(960 600) rotate(18)"><g transform="translate(0 0) rotate(0)"><rect x="-148" y="-34" width="296" height="68" rx="52" fill="#00ffff" opacity="0.2"/><rect x="-140" y="-26" width="280" height="52" rx="26" fill="#d8b984" stroke="#0a0a0c" stroke-width="4"/><rect x="-137" y="-24" width="274" height="21.84" rx="15.6" fill="#efd9b0"/><rect x="-135" y="6.24" width="270" height="14.560000000000002" rx="7.280000000000001" fill="#9c7642" opacity=".85"/></g></g>
+      <path d="M900 600q-60 -180 40 -260" fill="none" stroke="#c4a47a" stroke-width="3" stroke-dasharray="10 10"/>
+      <circle cx="851.47" cy="515.57" r="15.95" fill="#c4a47a" opacity="0.3" stroke="#0a0a0c" stroke-width="1.4"/><circle cx="822.94" cy="471.14" r="9.9" fill="#c4a47a" opacity="0.1" stroke="#0a0a0c" stroke-width="1.4"/><circle cx="880" cy="560" r="22" fill="#c4a47a" stroke="#0a0a0c" stroke-width="3"/><path d="M860.2 565.5a22 22 0 0 1 37.4 -11a22 22 0 0 0 -37.4 11Z" fill="#0a0a0c" opacity=".28"/><circle cx="872.96" cy="552.08" r="4.84" fill="#c4a47a"/>
+      <g fill="#00ffff" opacity="0.4"><path d="M113.59 70.87L113.12 74.38L109.41 74.9L106.41 72.76L106.98 69.26L109.85 68.79L111.87 68.94Z"/><path d="M277.08 197.3L274.63 209.51L262.96 205.79L252.68 203.18L254.33 192.21L261.86 183.98L273.41 186.63Z"/><path d="M216.21 86.08L214.68 91.36L208.4 95.15L201.32 90.49L201.44 81.73L208.01 75.31L215.29 80.04Z"/><path d="M307.69 156.6L303.07 162.77L295.13 169.83L288.54 161.23L289.16 152.27L296.15 147.84L306.94 145.57Z"/><path d="M198.92 201.76L199.52 209.8L191.44 209.05L186.54 204.93L187.97 199.29L191.23 193.53L198.91 194.48Z"/><path d="M304.86 87.69L304.36 98.45L292.92 100.22L284.42 93.15L279.78 79.98L292.09 71.54L302 79.88Z"/></g>
+    
+<rect x="10" y="10" width="1180" height="780" fill="none" stroke="#0a0a0c" stroke-width="9"/>
+  <rect x="23" y="23" width="1154" height="754" fill="none" stroke="#0a0a0c" stroke-width="1.6" opacity=".55"/>
+  <g stroke="#0a0a0c" stroke-width="7" opacity=".9">
+    <path d="M0 0h44M0 0v44"/><path d="M1200 0h-44M1200 0v44"/>
+    <path d="M0 800h44M0 800v-44"/><path d="M1200 800h-44M1200 800v-44"/>
+  </g>
+<g opacity=".5">
+    <rect x="16" y="4" width="1180" height="780" fill="none" stroke="#00ffff" stroke-width="2"/>
+    <rect x="4" y="16" width="1180" height="780" fill="none" stroke="#ff00ff" stroke-width="2"/>
+  </g>
+<rect x="0" y="0" width="1200" height="800" fill="url(#gr-archivist)"/>
+<rect x="0" y="0" width="1200" height="800" fill="url(#vig-archivist)"/>
+</svg>

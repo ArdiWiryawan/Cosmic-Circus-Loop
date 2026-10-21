@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-labelledby="title" data-art-id="P15">
+<title id="title">P15 Appeal Tsunami</title>
+<defs>
+  <radialGradient id="bg" cx="34%" cy="26%" r="88%">
+    <stop offset="0" stop-color="#0b2c35"/>
+    <stop offset=".58" stop-color="#09151b"/>
+    <stop offset="1" stop-color="#0b0710"/>
+  </radialGradient>
+  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#00ffcc"/>
+    <stop offset=".55" stop-color="#0a6f8a"/>
+    <stop offset="1" stop-color="#00ffcc"/>
+  </linearGradient>
+  <radialGradient id="vig" cx="50%" cy="46%" r="72%">
+    <stop offset=".55" stop-color="#0b0710" stop-opacity="0"/>
+    <stop offset="1" stop-color="#0b0710" stop-opacity=".62"/>
+  </radialGradient>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="3.2" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="5"/>
+  </filter>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" y="1" fill="#f6e8c8" opacity=".045"/>
+  </pattern>
+  <clipPath id="clip"><rect x="4" y="4" width="120" height="120" rx="22"/></clipPath>
+  
+</defs>
+<rect x="4" y="4" width="120" height="120" rx="22" fill="url(#bg)" stroke="#f6e8c8" stroke-opacity=".72" stroke-width="2"/>
+<g clip-path="url(#clip)">
+  <rect x="4" y="4" width="120" height="120" fill="url(#scan)"/>
+  <circle cx="64" cy="58" r="46" fill="#00ffcc" opacity=".08" filter="url(#soft)"/>
+  
+      <path d="M18 92c20 0 23-11 25-25 2-17 19-29 38-24 15 4 23 17 23 31v18Z" fill="url(#acc)" stroke="#f6e8c8" stroke-opacity=".45" stroke-width="2" filter="url(#glow)"/>
+      <path d="M44 70c9-2 13-8 15-17M60 52c6-4 13-5 19-2" fill="none" stroke="#fff" stroke-opacity=".5" stroke-width="3" stroke-linecap="round"/>
+      <path d="M24 96h76" stroke="#ffd700" stroke-width="3" stroke-linecap="round"/>
+      <path d="M84 26L86.12 31.09L91.61 31.53L87.42 35.11L88.7 40.47L84 37.6L79.3 40.47L80.58 35.11L76.39 31.53L81.88 31.09Z" fill="#ffd700" filter="url(#glow)"/>
+      <path d="M48 25L49.32 28.18L52.76 28.45L50.14 30.7L50.94 34.05L48 32.25L45.06 34.05L45.86 30.7L43.24 28.45L46.68 28.18Z" fill="#ffd700" opacity=".85"/>
+      <path d="M32 30l4 8 8 4-8 4-4 8-4-8-8-4 8-4Z" fill="#f6e8c8" opacity=".5"/>
+    
+  <rect x="4" y="4" width="120" height="120" fill="url(#vig)"/>
+  <rect x="7" y="7" width="114" height="114" rx="20" fill="none" stroke="#00ffcc" stroke-width="5" opacity=".22" filter="url(#soft)"/>
+  <rect x="9" y="9" width="110" height="110" rx="18" fill="none" stroke="#f6e8c8" stroke-opacity=".08" stroke-width="2"/>
+</g>
+<rect x="10" y="10" width="108" height="108" rx="18" fill="none" stroke="#00ffcc" stroke-opacity=".2"/>
+<g stroke="#00ffcc" stroke-width="2" stroke-linecap="round" opacity=".55">
+  <path d="M18 12h8M12 18v8M110 12h-8M116 18v8M18 116h8M12 110v-8M110 116h-8M116 110v-8"/>
+</g>
+</svg>

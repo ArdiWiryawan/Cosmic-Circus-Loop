@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-labelledby="t" data-art-id="critic">
+<title id="t">critic — Cosmic Circus Loop comic archive panel</title>
+<defs>
+    <pattern id="ht-critic" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(22)">
+    <circle cx="3.5" cy="3.5" r="1.85" fill="#2b0010" opacity="0.95"/>
+  </pattern>
+    <pattern id="ht2-critic" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(-18)">
+    <circle cx="4.5" cy="4.5" r="2.4" fill="#ffd700" opacity="0.85"/>
+  </pattern>
+    <pattern id="hx-critic" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(38)">
+    <line x1="0" y1="0" x2="0" y2="9" stroke="#2b0010" stroke-width="1.6" opacity=".55"/>
+  </pattern>
+    <pattern id="gr-critic" width="64" height="64" patternUnits="userSpaceOnUse"><rect x="18.4" y="7.7" width="2.0" height="2.0" fill="#2b0010" opacity="0.10"/><rect x="58.5" y="34.0" width="1.9" height="1.9" fill="#2b0010" opacity="0.13"/><rect x="55.3" y="38.0" width="2.1" height="2.1" fill="#2b0010" opacity="0.12"/><rect x="21.7" y="25.4" width="1.1" height="1.1" fill="#2b0010" opacity="0.13"/><rect x="24.6" y="28.4" width="1.0" height="1.0" fill="#2b0010" opacity="0.10"/><rect x="7.1" y="63.0" width="1.8" height="1.8" fill="#2b0010" opacity="0.13"/><rect x="30.1" y="6.4" width="2.1" height="2.1" fill="#2b0010" opacity="0.08"/><rect x="38.2" y="46.1" width="1.2" height="1.2" fill="#2b0010" opacity="0.13"/><rect x="56.5" y="23.4" width="0.7" height="0.7" fill="#2b0010" opacity="0.09"/><rect x="51.7" y="0.8" width="1.9" height="1.9" fill="#2b0010" opacity="0.11"/><rect x="0.8" y="40.2" width="1.4" height="1.4" fill="#2b0010" opacity="0.06"/><rect x="26.3" y="2.7" width="1.4" height="1.4" fill="#2b0010" opacity="0.06"/><rect x="0.9" y="17.6" width="0.8" height="0.8" fill="#2b0010" opacity="0.08"/><rect x="36.2" y="46.6" width="1.8" height="1.8" fill="#2b0010" opacity="0.15"/><rect x="5.0" y="19.5" width="1.9" height="1.9" fill="#2b0010" opacity="0.10"/><rect x="29.7" y="56.6" width="1.5" height="1.5" fill="#2b0010" opacity="0.15"/></pattern>
+    <radialGradient id="vig-critic" cx="50%" cy="46%" r="72%">
+      <stop offset=".55" stop-color="#2b0010" stop-opacity="0"/>
+      <stop offset="1" stop-color="#2b0010" stop-opacity=".42"/>
+    </radialGradient>
+    <linearGradient id="sky-critic" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd700" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#ff2bd6" stop-opacity=".06"/>
+    </linearGradient>
+  </defs>
+<rect x="0" y="0" width="1200" height="800" fill="#f7e8cf"/>
+
+      <rect x="0" y="0" width="1200" height="800" fill="#2b0010"/>
+      <path d="M580 0L620 0L950 760L250 760Z" fill="#ffd700" opacity="0.18"/>
+  <ellipse cx="600" cy="760" rx="350" ry="26" fill="#ffd700" opacity="0.126"/>
+      <g transform="translate(260 90)" stroke="#2b0010" stroke-width="5">
+    <rect width="680" height="560" fill="#f7e8cf"/>
+    <rect x="14" y="14" width="652" height="532" fill="none" stroke-width="2" opacity=".5"/>
+    <g fill="#ffd700"><path d="M295 156.4l12 26l28 4l-20 20l5 28l-25 -14l-25 14l5 -28l-20 -20l28 -4Z"/><path d="M385 156.4l12 26l28 4l-20 20l5 28l-25 -14l-25 14l5 -28l-20 -20l28 -4Z"/></g><rect x="122.39999999999999" y="347.2" width="435.2" height="8" fill="#2b0010" opacity=".5"/>
+  <rect x="176.8" y="403.2" width="326.4" height="6" fill="#2b0010" opacity=".32"/></g>
+      <g transform="translate(600 690) scale(0.75)"><g transform="translate(0 0) rotate(0)"><rect x="-148" y="-34" width="296" height="68" rx="52" fill="#ffd700" opacity="0.15"/><rect x="-140" y="-26" width="280" height="52" rx="26" fill="#d8b984" stroke="#2b0010" stroke-width="4"/><rect x="-137" y="-24" width="274" height="21.84" rx="15.6" fill="#efd9b0"/><rect x="-135" y="6.24" width="270" height="14.560000000000002" rx="7.280000000000001" fill="#9c7642" opacity=".85"/></g></g>
+      <circle cx="800.87" cy="590.79" r="15.95" fill="#f7e8cf" opacity="0.3" stroke="#2b0010" stroke-width="1.4"/><circle cx="781.74" cy="541.58" r="9.9" fill="#f7e8cf" opacity="0.1" stroke="#2b0010" stroke-width="1.4"/><circle cx="820" cy="640" r="22" fill="#f7e8cf" stroke="#2b0010" stroke-width="3"/><path d="M800.2 645.5a22 22 0 0 1 37.4 -11a22 22 0 0 0 -37.4 11Z" fill="#2b0010" opacity=".28"/><circle cx="812.96" cy="632.08" r="4.84" fill="#f7e8cf"/>
+      <g transform="translate(260 90)">
+        <g stroke="#ff2bd6" stroke-width="6" opacity=".8">
+          <path d="M60 60l40 40M100 60l-40 40"/>
+        </g>
+      </g>
+      <g fill="#ffd700" opacity="0.35"><path d="M522.17 718.5L249.76 783.27L253.25 784.31L522.17 718.5Z"/><path d="M679.77 693.9L958.95 672.56L961.19 673.23L679.77 693.9Z"/><path d="M667.17 656.54L902.26 504.45L904.69 505.18L667.17 656.54Z"/><path d="M676.19 675.62L942.88 590.3L944.5 590.78L676.19 675.62Z"/><path d="M662.23 649.73L880.03 473.77L881.41 474.18L662.23 649.73Z"/><path d="M543.07 643.8L343.8 447.09L347.58 448.23L543.07 643.8Z"/><path d="M556.33 632.97L403.49 398.36L407.34 399.52L556.33 632.97Z"/><path d="M678.94 686.99L955.21 641.46L957.72 642.21L678.94 686.99Z"/><path d="M679.24 689.02L956.6 650.6L960.06 651.64L679.24 689.02Z"/><path d="M531.41 658.83L291.34 514.71L294.83 515.76L531.41 658.83Z"/><path d="M520.93 712.16L244.18 754.71L247.91 755.83L520.93 712.16Z"/><path d="M611.49 620.83L651.7 343.73L655.05 344.74L611.49 620.83Z"/></g>
+      <g fill="#ff2bd6" opacity="0.4"><path d="M147.04 84.85L142.85 88.42L139.07 88.91L136.71 86.43L136.13 82.98L138.91 80.05L144.46 79.25Z"/><path d="M664.56 62.85L663.62 65.05L660.9 67.07L657.86 64.78L657.71 60.85L660.9 58.62L664.01 60.16Z"/><path d="M214.49 136.08L209.6 145.97L199.07 147.68L185.57 143.86L189.75 130.32L198.79 123.26L210.07 125.61Z"/><path d="M282.4 205.71L276.34 215.53L266.68 213.75L258.71 210.43L255.45 199.42L265.73 193.52L278.38 193.33Z"/><path d="M335.66 111.56L334.79 113.81L332.37 114.33L331.11 112.46L330.74 110.47L332.23 108.18L334.52 109.65Z"/><path d="M1031.37 158.98L1027.56 169.37L1015.43 175.78L1011.19 162.86L1009.53 154.28L1015.42 142.12L1030.61 144.76Z"/></g>
+    
+<rect x="10" y="10" width="1180" height="780" fill="none" stroke="#2b0010" stroke-width="9"/>
+  <rect x="23" y="23" width="1154" height="754" fill="none" stroke="#2b0010" stroke-width="1.6" opacity=".55"/>
+  <g stroke="#2b0010" stroke-width="7" opacity=".9">
+    <path d="M0 0h44M0 0v44"/><path d="M1200 0h-44M1200 0v44"/>
+    <path d="M0 800h44M0 800v-44"/><path d="M1200 800h-44M1200 800v-44"/>
+  </g>
+<g opacity=".5">
+    <rect x="16" y="4" width="1180" height="780" fill="none" stroke="#ffd700" stroke-width="2"/>
+    <rect x="4" y="16" width="1180" height="780" fill="none" stroke="#ff2bd6" stroke-width="2"/>
+  </g>
+<rect x="0" y="0" width="1200" height="800" fill="url(#gr-critic)"/>
+<rect x="0" y="0" width="1200" height="800" fill="url(#vig-critic)"/>
+</svg>

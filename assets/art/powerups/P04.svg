@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-labelledby="title" data-art-id="P04">
+<title id="title">P04 Asuransi Nyawa</title>
+<defs>
+  <radialGradient id="bg" cx="34%" cy="26%" r="88%">
+    <stop offset="0" stop-color="#143018"/>
+    <stop offset=".58" stop-color="#0d1710"/>
+    <stop offset="1" stop-color="#0b0710"/>
+  </radialGradient>
+  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#39ff14"/>
+    <stop offset=".55" stop-color="#ffd700"/>
+    <stop offset="1" stop-color="#39ff14"/>
+  </linearGradient>
+  <radialGradient id="vig" cx="50%" cy="46%" r="72%">
+    <stop offset=".55" stop-color="#0b0710" stop-opacity="0"/>
+    <stop offset="1" stop-color="#0b0710" stop-opacity=".62"/>
+  </radialGradient>
+  <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+    <feGaussianBlur stdDeviation="3.2" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="5"/>
+  </filter>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" y="1" fill="#f6e8c8" opacity=".045"/>
+  </pattern>
+  <clipPath id="clip"><rect x="4" y="4" width="120" height="120" rx="22"/></clipPath>
+  
+</defs>
+<rect x="4" y="4" width="120" height="120" rx="22" fill="url(#bg)" stroke="#f6e8c8" stroke-opacity=".72" stroke-width="2"/>
+<g clip-path="url(#clip)">
+  <rect x="4" y="4" width="120" height="120" fill="url(#scan)"/>
+  <circle cx="64" cy="58" r="46" fill="#39ff14" opacity=".08" filter="url(#soft)"/>
+  
+      <path d="M64 108 32 82V34h64v48Z" fill="#1b2a18" stroke="#ffd700" stroke-width="3" filter="url(#glow)"/>
+      <path d="M64 94 44 74V48h40v26Z" fill="none" stroke="#f6e8c8" stroke-opacity=".28" stroke-width="2"/>
+      <path d="M64 84c-17-10-23-19-18-28 4-8 14-8 18-2 4-6 14-6 18 2 5 9-1 18-18 28Z" fill="#39ff14" stroke="#f6e8c8" stroke-opacity=".55" stroke-width="2"/>
+      <path d="M64 56v16M56 64h16" stroke="#0b0710" stroke-width="4" stroke-linecap="round"/>
+      <path d="M32 36L32.79 39.21L36 40L32.79 40.79L32 44L31.21 40.79L28 40L31.21 39.21Z" fill="#ffd700" opacity="0.8"/>
+      <path d="M96 43L96.59 45.41L99 46L96.59 46.59L96 49L95.41 46.59L93 46L95.41 45.41Z" fill="#f6e8c8" opacity="0.6"/>
+    
+  <rect x="4" y="4" width="120" height="120" fill="url(#vig)"/>
+  <rect x="7" y="7" width="114" height="114" rx="20" fill="none" stroke="#39ff14" stroke-width="5" opacity=".22" filter="url(#soft)"/>
+  <rect x="9" y="9" width="110" height="110" rx="18" fill="none" stroke="#f6e8c8" stroke-opacity=".08" stroke-width="2"/>
+</g>
+<rect x="10" y="10" width="108" height="108" rx="18" fill="none" stroke="#39ff14" stroke-opacity=".2"/>
+<g stroke="#39ff14" stroke-width="2" stroke-linecap="round" opacity=".55">
+  <path d="M18 12h8M12 18v8M110 12h-8M116 18v8M18 116h8M12 110v-8M110 116h-8M116 110v-8"/>
+</g>
+</svg>

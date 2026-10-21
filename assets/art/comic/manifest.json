@@ -1,0 +1,177 @@
+{
+  "generatedBy": "scripts/comic/generate.mjs",
+  "count": 34,
+  "maxBytes": 17248,
+  "items": [
+    {
+      "id": "first_run",
+      "file": "assets/art/comic/first_run.svg",
+      "bytes": 15388
+    },
+    {
+      "id": "first_bounce",
+      "file": "assets/art/comic/first_bounce.svg",
+      "bytes": 9710
+    },
+    {
+      "id": "gong_100",
+      "file": "assets/art/comic/gong_100.svg",
+      "bytes": 10085
+    },
+    {
+      "id": "phase_5",
+      "file": "assets/art/comic/phase_5.svg",
+      "bytes": 8318
+    },
+    {
+      "id": "phase_7",
+      "file": "assets/art/comic/phase_7.svg",
+      "bytes": 9606
+    },
+    {
+      "id": "absurdity_150",
+      "file": "assets/art/comic/absurdity_150.svg",
+      "bytes": 10823
+    },
+    {
+      "id": "fusion_first",
+      "file": "assets/art/comic/fusion_first.svg",
+      "bytes": 9197
+    },
+    {
+      "id": "torment_25",
+      "file": "assets/art/comic/torment_25.svg",
+      "bytes": 12591
+    },
+    {
+      "id": "run_50",
+      "file": "assets/art/comic/run_50.svg",
+      "bytes": 9834
+    },
+    {
+      "id": "true_fusion",
+      "file": "assets/art/comic/true_fusion.svg",
+      "bytes": 5959
+    },
+    {
+      "id": "lumi",
+      "file": "assets/art/comic/lumi.svg",
+      "bytes": 7627
+    },
+    {
+      "id": "pipo",
+      "file": "assets/art/comic/pipo.svg",
+      "bytes": 11708
+    },
+    {
+      "id": "kapten_keju",
+      "file": "assets/art/comic/kapten_keju.svg",
+      "bytes": 8009
+    },
+    {
+      "id": "overclock",
+      "file": "assets/art/comic/overclock.svg",
+      "bytes": 10214
+    },
+    {
+      "id": "dj_synth",
+      "file": "assets/art/comic/dj_synth.svg",
+      "bytes": 9319
+    },
+    {
+      "id": "neon_phantom",
+      "file": "assets/art/comic/neon_phantom.svg",
+      "bytes": 9309
+    },
+    {
+      "id": "echo",
+      "file": "assets/art/comic/echo.svg",
+      "bytes": 10299
+    },
+    {
+      "id": "error404",
+      "file": "assets/art/comic/error404.svg",
+      "bytes": 7415
+    },
+    {
+      "id": "archivist",
+      "file": "assets/art/comic/archivist.svg",
+      "bytes": 8471
+    },
+    {
+      "id": "whisperer",
+      "file": "assets/art/comic/whisperer.svg",
+      "bytes": 7883
+    },
+    {
+      "id": "deep_one",
+      "file": "assets/art/comic/deep_one.svg",
+      "bytes": 8214
+    },
+    {
+      "id": "unseeing_eye",
+      "file": "assets/art/comic/unseeing_eye.svg",
+      "bytes": 7484
+    },
+    {
+      "id": "chef_ragu",
+      "file": "assets/art/comic/chef_ragu.svg",
+      "bytes": 7598
+    },
+    {
+      "id": "taster",
+      "file": "assets/art/comic/taster.svg",
+      "bytes": 7021
+    },
+    {
+      "id": "ramuan_hidup",
+      "file": "assets/art/comic/ramuan_hidup.svg",
+      "bytes": 8029
+    },
+    {
+      "id": "prima_donna",
+      "file": "assets/art/comic/prima_donna.svg",
+      "bytes": 11435
+    },
+    {
+      "id": "critic",
+      "file": "assets/art/comic/critic.svg",
+      "bytes": 6948
+    },
+    {
+      "id": "understudy",
+      "file": "assets/art/comic/understudy.svg",
+      "bytes": 7065
+    },
+    {
+      "id": "sekretaris",
+      "file": "assets/art/comic/sekretaris.svg",
+      "bytes": 17248
+    },
+    {
+      "id": "auditor",
+      "file": "assets/art/comic/auditor.svg",
+      "bytes": 8553
+    },
+    {
+      "id": "penasihat",
+      "file": "assets/art/comic/penasihat.svg",
+      "bytes": 6422
+    },
+    {
+      "id": "manajer",
+      "file": "assets/art/comic/manajer.svg",
+      "bytes": 9058
+    },
+    {
+      "id": "true_ending",
+      "file": "assets/art/comic/true_ending.svg",
+      "bytes": 7087
+    },
+    {
+      "id": "glitch",
+      "file": "assets/art/comic/glitch.svg",
+      "bytes": 13490
+    }
+  ]
+}
