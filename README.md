@@ -1,67 +1,120 @@
-# 🎪 The Cosmic Circus Loop
+# The Cosmic Circus Loop 🎪
+> **An Absurd Cosmic Gameshow Roguelike Arcade Game**
 
-**Game arkade roguelike absurd bertema gameshow kosmik.**  
-Pantulkan bakso dengan stik es krim di hadapan 700 miliar penonton alien yang terus menyiksa. Bentuk kombinasi Power-Up legendaris, pilih Arena dan Stick berjiwa, dan ubah setiap kekalahan menjadi kemajuan.
+[![Status](https://img.shields.io/badge/Status-Playable_End--to--End-brightgreen?style=for-the-badge)](https://github.com/ArdiWiryawan/Cosmic-Circus-Loop)
+[![Language](https://img.shields.io/badge/Stack-JavaScript_/_HTML5_/_CSS3-orange?style=for-the-badge&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![Documentation](https://img.shields.io/badge/Specs-GDD_Available-blue?style=for-the-badge)](docs/game-design/)
 
----
-
-## ✨ Fitur Utama
-
-- **7 Fase Chaos** – Timer siksaan makin cepat, penonton makin brutal, hingga "PENONTON TURUN KE ARENA!"
-- **30+ Power-Up & Sistem Fusi 3 Level** – Gabungkan dua Power-Up menjadi Ultimate Form, lalu berevolusi hingga level 3. Semua kombinasi dirahasiakan—temukan sendiri!
-- **6 Arena & 6 Stick dengan Kepribadian** – Setiap Arena punya musik dan efek unik. Setiap Stick punya cerita, mastery, dan kemampuan spesial (Glarp si Pemberontak, Sendok Bengkok, Tongkat Manajer...).
-- **21 Mini Boss + 1 Final Boss** – Setiap arena punya tiga penjaga dengan mekanik unik (tirai, segel, sorot, hapus, bisikan, gravitasi…). Selesaikan semuanya untuk membuka **Final Boss "Manajer"** — tiga babak, sembilan HP, dan ending rahasia *"TIRAI DITUTUP"*.
-- **Kartu Power-Up Premium** – Rarity (Umum→Legenda), tipe, artwork SVG, statistik akurat, serta state *hover / focus / dipilih / terkunci / tidak mampu / bisa di-upgrade / MAX*.
-- **Comic Archive** – 34 panel ilustrasi komik orisinal, satu cerita visual per pencapaian: run pertama, 100 GONG, tiap mini boss, Manajer, dan ending rahasia. Galeri full-screen dengan filter bab, progress koleksi, detail view, state terkunci/terbuka, dan toast unlock.
-- **Relik & Kartu Nasib** – Equip Relik pengubah aturan sebelum run, dan temukan Kartu Nasib sekali pakai di tengah kekacauan.
-- **Dua Mode** – Mode *Chaos* untuk teror penuh, Mode *Zen* untuk bersantai tanpa siksaan.
-- **Meta-Progresi** – Kumpulkan Poin Ketenaran, naikkan Level Mastery Arena/Stick, dan buka momen cerita rahasia.
-- **Kejutan Tanpa Henti** – Mikro-Twist, Plot Twist, alien tamu spesial, Roulette Kematian, dan rahasia yang hanya bisa ditemukan oleh pemain paling gigih.
+Welcome to the **Cosmic Circus Loop**, an absurd roguelike arcade gameshow. Bounce meatballs with ice cream sticks to survive and entertain a crowd of 700 billion demanding alien spectators. Mix legendary power-ups, choose unique arenas, and turn every defeat into progress.
 
 ---
 
-## 🖼️ Aset
+## 🌟 Key Features
 
-Seluruh artwork kartu, potret boss, dan ikon bahaya final boss dibuat **prosedural** oleh `scripts/generate-art.mjs` (SVG, tanpa dependensi eksternal). Jalankan ulang dengan:
+### ⏱️ 1. 7 Phases of Chaos
+- A progressive difficulty timer that accelerates alien demands and arena obstacles.
+- Dynamic crowd reactions that intensify as you survive, culminating in high-stakes phase modifiers.
+- Custom game modes: **Chaos Mode** for active challenges, or **Zen Mode** for stress-free arcade bouncing.
 
-```bash
-node scripts/generate-art.mjs
+### ⚡ 2. 30 Power-Ups, 36 Fusions, 3-Tier Evolution
+- Upgrade your paddle and balls dynamically as you play.
+- Combine distinct power-ups to unlock hidden **Ultimate Forms**, evolving through levels 1 to 5.
+- Every power-up tag is wired to real gameplay. Run `node scripts/audit-powerups.mjs` to verify.
+- **Premium card presentation**: rarity tiers (Common → Legendary, plus Illegal and Fate), type badges, real artwork, accurate stat chips, and hover / focus / selected / disabled / locked / upgrade / MAX states.
+
+### 🏟️ 3. Arenas & Paddles with Personality
+- **7 Playable Arenas**: Each featuring distinct background music tracks, speed factors, and unique environmental hazards.
+- **7 Playable Sticks**: Bouncing paddles with unique character backgrounds and mastery scaling (e.g., Glarp the Rebel, the Bent Spoon, the Manager's Cane).
+- **Relics & Fate Cards**: Pre-equip passive rules-bending Relics or trigger single-use Fate Cards during runs.
+
+### 👹 4. 21 Mini Bosses + 1 Final Boss
+- Each arena has three guardians with distinct mechanics: curtains, seals, spotlights, erase beams, whispers, gravity, and more.
+- Defeat all 21 to open the **Final Boss "Manajer"**: three acts, nine HP, five hazard types, and the secret ending *"TIRAI DITUTUP"*.
+
+### 📖 5. Comic Archive
+- **34 illustrated achievements**, one original comic panel per milestone: first run, 100th GONG, every mini boss, the Manager, and the secret endings.
+- Full-viewport gallery with chapter filters, collection progress, rarity badges, locked/unlocked states, detail view with story and quote, and unlock toasts.
+- Legacy lore entries and boss dossiers are preserved inside a collapsible document section.
+
+### 🎭 6. Meta-Progression & Secrets
+- Collect Fame, raise Arena and Stick mastery levels, and unlock hidden narrative moments.
+- Micro-Twists, Plot Twists, special guest aliens, the Death Roulette, and secrets only the most persistent players will find.
+
+---
+
+## 🛠️ Tech Stack
+- **Game Engine**: Custom Vanilla HTML5 Canvas Engine
+- **Logic**: Pure Object-Oriented JavaScript (ES6+)
+- **Styling**: Modern CSS3 grid systems & absolute positioning layouts
+- **Art**: Procedural SVG generated from code — no external dependencies, no build step
+- **Specification Document**: Game Design Document in [`docs/game-design/`](docs/game-design/)
+
+---
+
+## 📂 Project Structure
+```text
+Cosmic-Circus-Loop/
+├── index.html                      # The entire game (engine, UI, logic)
+├── assets/
+│   ├── art/
+│   │   ├── powerups/               # 30 power-up icons
+│   │   ├── illegal/                # 5 illegal cards
+│   │   ├── fate/                   # 4 fate cards
+│   │   ├── modifiers/              # 8 curse modifiers
+│   │   ├── bosses/                 # 21 mini bosses + 3 Manager phases
+│   │   ├── ui/                     # 5 final-boss hazard icons
+│   │   └── comic/                  # 34 comic archive panels + manifest
+│   └── audio/                      # Music and SFX
+├── scripts/
+│   ├── generate-art.mjs            # Builds the 76 card/boss/UI SVGs
+│   ├── audit-powerups.mjs          # Verifies every tag has a real effect
+│   └── comic/                      # Comic panel generator + integrity check
+├── docs/game-design/               # GDD, boss bible, art direction, UI flow
+└── legacy/                         # Previous GitHub version
 ```
 
-- `assets/art/powerups/` — 30 Power-Up
-- `assets/art/illegal/` — 5 Kartu Ilegal
-- `assets/art/fate/` — 4 Kartu Nasib
-- `assets/art/modifiers/` — 8 Modifier Kutukan
-- `assets/art/bosses/` — 21 Mini Boss + 3 varian Manajer
-- `assets/art/ui/` — 5 ikon bahaya final boss
-- `assets/art/comic/` — **34 panel Comic Archive** (1200×800, risograph comic)
+---
 
-Panel komik dibuat oleh generator terpisah dan diverifikasi integritasnya:
+## 🚀 Running Locally
+Because this game utilizes external audio tracks and assets, launching a local web server is recommended:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ArdiWiryawan/Cosmic-Circus-Loop.git
+   cd Cosmic-Circus-Loop
+   ```
+2. **Start a local development server:**
+   *Using Node.js:*
+   ```bash
+   npx serve .
+   ```
+   *Using Python:*
+   ```bash
+   python -m http.server 8000
+   ```
+3. Open `http://localhost:8000` or `http://localhost:3000` in your web browser.
+
+---
+
+## 🖼️ Regenerating Assets
+
+All artwork is authored as procedural SVG, so it can be rebuilt at any time:
 
 ```bash
-node scripts/comic/generate.mjs   # tulis 34 SVG + manifest
-node scripts/comic/verify.mjs     # cek mapping achievement <-> art, format, ukuran
-node scripts/audit-powerups.mjs   # cek setiap tag Power-Up/Fusi/Ilegal punya efek nyata
+node scripts/generate-art.mjs   # 76 card, boss, and UI assets
+node scripts/comic/generate.mjs # 34 comic panels + manifest
+node scripts/comic/verify.mjs   # art <-> achievement mapping, format, size
+node scripts/audit-powerups.mjs # every power-up/fusion/illegal tag has an effect
 ```
 
-Panduan art direction lengkap: [`docs/game-design/VISUAL & INTERAKSI/COMIC ARCHIVE ART DIRECTION.md`](docs/game-design/VISUAL%20%26%20INTERAKSI/COMIC%20ARCHIVE%20ART%20DIRECTION.md).
+Art direction for the comic archive is documented in
+[`docs/game-design/VISUAL & INTERAKSI/COMIC ARCHIVE ART DIRECTION.md`](docs/game-design/VISUAL%20%26%20INTERAKSI/COMIC%20ARCHIVE%20ART%20DIRECTION.md).
 
-> **Catatan jujur:** tidak ada layanan image-generation di environment ini. Seluruh panel
-> adalah **ilustrasi vektor prosedural** (SVG) yang ditulis tangan lewat generator — bukan
-> hasil model gambar. Ini memberi kontrol komposisi dan konsistensi karakter, tetapi bukan
-> lukisan raster/airbrush.
-
----
-
-## 📌 Status
-
-🟢 **Playable end-to-end.** Loop inti, 7 fase, 21 mini boss, final boss, toko, kartu nasib, fusi, relik, dan ending rahasia semuanya berjalan.
-
-Sisa pekerjaan yang diketahui ada di bagian *Remaining Gaps* laporan audit internal.
+> **Honest note:** no image-generation service is used. Every panel is hand-authored
+> vector art generated from code — not model output. This keeps composition and character
+> consistency under direct control, but it is not raster painting.
 
 ---
 
-## 🎪 Kredit
-
-Game oleh **[Ardi Wiryawan]**.  
-Dokumen desain lengkap tersedia di [GDD.md](GDD.md).
+## 📄 License
+This project is open-source and licensed under the [MIT License](LICENSE).
