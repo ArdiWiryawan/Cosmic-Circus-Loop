@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="480" height="320" role="img" aria-labelledby="t" data-art-id="theme_piknik">
+<title id="t">theme_piknik</title>
+<defs>
+  <radialGradient id="bg" cx="46%" cy="34%" r="86%">
+    <stop offset="0" stop-color="#ffe9c9"/>
+    <stop offset=".55" stop-color="#7a3a1a"/>
+    <stop offset="1" stop-color="#0b0710"/>
+  </radialGradient>
+  <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#e63946" stop-opacity=".38"/>
+    <stop offset=".62" stop-color="#e63946" stop-opacity=".1"/>
+    <stop offset="1" stop-color="#e63946" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#e63946"/>
+    <stop offset="1" stop-color="#f6e8c8"/>
+  </linearGradient>
+  <pattern id="ht" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(22)">
+    <circle cx="3.5" cy="3.5" r="1.7" fill="#0b0710" opacity=".85"/>
+  </pattern>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" y="1" fill="#f6e8c8" opacity=".05"/>
+  </pattern>
+  <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="6"/>
+  </filter>
+  
+</defs>
+<rect x="0" y="0" width="480" height="320" fill="#fff7ee"/>
+  <rect x="-40" y="90" width="40" height="40" fill="#e63946"/><rect x="-40" y="130" width="40" height="40" fill="#f1faee"/><rect x="-40" y="170" width="40" height="40" fill="#e63946"/><rect x="-40" y="210" width="40" height="40" fill="#f1faee"/><rect x="-40" y="250" width="40" height="40" fill="#e63946"/><rect x="-40" y="290" width="40" height="40" fill="#f1faee"/><rect x="-40" y="330" width="40" height="40" fill="#e63946"/><rect x="0" y="90" width="40" height="40" fill="#f1faee"/><rect x="0" y="130" width="40" height="40" fill="#e63946"/><rect x="0" y="170" width="40" height="40" fill="#f1faee"/><rect x="0" y="210" width="40" height="40" fill="#e63946"/><rect x="0" y="250" width="40" height="40" fill="#f1faee"/><rect x="0" y="290" width="40" height="40" fill="#e63946"/><rect x="0" y="330" width="40" height="40" fill="#f1faee"/><rect x="40" y="90" width="40" height="40" fill="#e63946"/><rect x="40" y="130" width="40" height="40" fill="#f1faee"/><rect x="40" y="170" width="40" height="40" fill="#e63946"/><rect x="40" y="210" width="40" height="40" fill="#f1faee"/><rect x="40" y="250" width="40" height="40" fill="#e63946"/><rect x="40" y="290" width="40" height="40" fill="#f1faee"/><rect x="40" y="330" width="40" height="40" fill="#e63946"/><rect x="80" y="90" width="40" height="40" fill="#f1faee"/><rect x="80" y="130" width="40" height="40" fill="#e63946"/><rect x="80" y="170" width="40" height="40" fill="#f1faee"/><rect x="80" y="210" width="40" height="40" fill="#e63946"/><rect x="80" y="250" width="40" height="40" fill="#f1faee"/><rect x="80" y="290" width="40" height="40" fill="#e63946"/><rect x="80" y="330" width="40" height="40" fill="#f1faee"/><rect x="120" y="90" width="40" height="40" fill="#e63946"/><rect x="120" y="130" width="40" height="40" fill="#f1faee"/><rect x="120" y="170" width="40" height="40" fill="#e63946"/><rect x="120" y="210" width="40" height="40" fill="#f1faee"/><rect x="120" y="250" width="40" height="40" fill="#e63946"/><rect x="120" y="290" width="40" height="40" fill="#f1faee"/><rect x="120" y="330" width="40" height="40" fill="#e63946"/><rect x="160" y="90" width="40" height="40" fill="#f1faee"/><rect x="160" y="130" width="40" height="40" fill="#e63946"/><rect x="160" y="170" width="40" height="40" fill="#f1faee"/><rect x="160" y="210" width="40" height="40" fill="#e63946"/><rect x="160" y="250" width="40" height="40" fill="#f1faee"/><rect x="160" y="290" width="40" height="40" fill="#e63946"/><rect x="160" y="330" width="40" height="40" fill="#f1faee"/><rect x="200" y="90" width="40" height="40" fill="#e63946"/><rect x="200" y="130" width="40" height="40" fill="#f1faee"/><rect x="200" y="170" width="40" height="40" fill="#e63946"/><rect x="200" y="210" width="40" height="40" fill="#f1faee"/><rect x="200" y="250" width="40" height="40" fill="#e63946"/><rect x="200" y="290" width="40" height="40" fill="#f1faee"/><rect x="200" y="330" width="40" height="40" fill="#e63946"/><rect x="240" y="90" width="40" height="40" fill="#f1faee"/><rect x="240" y="130" width="40" height="40" fill="#e63946"/><rect x="240" y="170" width="40" height="40" fill="#f1faee"/><rect x="240" y="210" width="40" height="40" fill="#e63946"/><rect x="240" y="250" width="40" height="40" fill="#f1faee"/><rect x="240" y="290" width="40" height="40" fill="#e63946"/><rect x="240" y="330" width="40" height="40" fill="#f1faee"/><rect x="280" y="90" width="40" height="40" fill="#e63946"/><rect x="280" y="130" width="40" height="40" fill="#f1faee"/><rect x="280" y="170" width="40" height="40" fill="#e63946"/><rect x="280" y="210" width="40" height="40" fill="#f1faee"/><rect x="280" y="250" width="40" height="40" fill="#e63946"/><rect x="280" y="290" width="40" height="40" fill="#f1faee"/><rect x="280" y="330" width="40" height="40" fill="#e63946"/><rect x="320" y="90" width="40" height="40" fill="#f1faee"/><rect x="320" y="130" width="40" height="40" fill="#e63946"/><rect x="320" y="170" width="40" height="40" fill="#f1faee"/><rect x="320" y="210" width="40" height="40" fill="#e63946"/><rect x="320" y="250" width="40" height="40" fill="#f1faee"/><rect x="320" y="290" width="40" height="40" fill="#e63946"/><rect x="320" y="330" width="40" height="40" fill="#f1faee"/><rect x="360" y="90" width="40" height="40" fill="#e63946"/><rect x="360" y="130" width="40" height="40" fill="#f1faee"/><rect x="360" y="170" width="40" height="40" fill="#e63946"/><rect x="360" y="210" width="40" height="40" fill="#f1faee"/><rect x="360" y="250" width="40" height="40" fill="#e63946"/><rect x="360" y="290" width="40" height="40" fill="#f1faee"/><rect x="360" y="330" width="40" height="40" fill="#e63946"/><rect x="400" y="90" width="40" height="40" fill="#f1faee"/><rect x="400" y="130" width="40" height="40" fill="#e63946"/><rect x="400" y="170" width="40" height="40" fill="#f1faee"/><rect x="400" y="210" width="40" height="40" fill="#e63946"/><rect x="400" y="250" width="40" height="40" fill="#f1faee"/><rect x="400" y="290" width="40" height="40" fill="#e63946"/><rect x="400" y="330" width="40" height="40" fill="#f1faee"/><rect x="440" y="90" width="40" height="40" fill="#e63946"/><rect x="440" y="130" width="40" height="40" fill="#f1faee"/><rect x="440" y="170" width="40" height="40" fill="#e63946"/><rect x="440" y="210" width="40" height="40" fill="#f1faee"/><rect x="440" y="250" width="40" height="40" fill="#e63946"/><rect x="440" y="290" width="40" height="40" fill="#f1faee"/><rect x="440" y="330" width="40" height="40" fill="#e63946"/><rect x="480" y="90" width="40" height="40" fill="#f1faee"/><rect x="480" y="130" width="40" height="40" fill="#e63946"/><rect x="480" y="170" width="40" height="40" fill="#f1faee"/><rect x="480" y="210" width="40" height="40" fill="#e63946"/><rect x="480" y="250" width="40" height="40" fill="#f1faee"/><rect x="480" y="290" width="40" height="40" fill="#e63946"/><rect x="480" y="330" width="40" height="40" fill="#f1faee"/>
+  <rect x="0" y="0" width="480" height="96" fill="#ffd166"/>
+  <circle cx="392" cy="54" r="34" fill="#fff3c4" opacity=".9"/>
+  <path d="M330 118l44 22l-40 20Z" fill="#f4a261" stroke="#0b0710" stroke-width="2.5"/>
+  <g fill="#8b5a2b"><circle cx="344" cy="140" r="4"/><circle cx="356" cy="134" r="3"/></g>
+  <g fill="#0b0710" opacity=".7"><circle cx="70" cy="160" r="3"/><circle cx="96" cy="146" r="2.5"/><circle cx="120" cy="168" r="2"/></g>
+<rect x="0" y="0" width="480" height="320" fill="url(#halo)" opacity=".35"/>
+<rect x="0" y="0" width="480" height="320" fill="url(#bg)"/>
+<rect x="0" y="0" width="480" height="320" fill="url(#scan)"/>
+<rect x="8" y="8" width="464" height="304" fill="none" stroke="#e63946" stroke-opacity=".55" stroke-width="2"/>
+<rect x="14" y="14" width="452" height="292" fill="none" stroke="#0b0710" stroke-opacity=".6" stroke-width="1"/>
+<g stroke="#e63946" stroke-width="2.5" stroke-linecap="round" opacity=".8">
+  <path d="M8 34V8h26"/><path d="M446 8h26v26"/>
+  <path d="M8 286v26h26"/><path d="M472 286v26h-26"/>
+</g>
+<text x="460" y="302" text-anchor="end" font-family="monospace" font-size="9" letter-spacing="2.4" fill="#e63946" opacity=".5">ARENA</text>
+</svg>

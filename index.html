@@ -617,16 +617,16 @@
 
       .meta-container {
         width: 100%;
-        max-width: 420px;
-        flex: 1;
+        max-width: none;
+        flex: 0 0 auto;
         min-height: 0;
-        overflow-y: auto;
+        overflow: visible;
         text-align: left;
-        background: rgba(0, 0, 0, 0.7);
-        border: 1px solid #444;
-        padding: 15px;
-        margin: 10px 0;
-        border-radius: 8px;
+        background: none;
+        border: 0;
+        padding: 0;
+        margin: 0;
+        border-radius: 0;
       }
       .meta-item {
         display: flex;
@@ -640,6 +640,299 @@
         color: #aaa;
         font-size: 13px;
         line-height: 1.2;
+      }
+
+      /* ===== META SHOP ===== */
+      #meta-shop {
+        background:
+          radial-gradient(circle at 50% 0%, rgba(255, 215, 0, 0.1), transparent 44%),
+          repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.016) 0 1px, transparent 1px 46px),
+          #08060a;
+        padding: 0;
+        overflow: hidden;
+      }
+      .meta-shell {
+        position: relative;
+        width: 100%;
+        max-width: 1000px;
+        height: 100%;
+        margin: 0 auto;
+        padding: 14px 16px 40px;
+        box-sizing: border-box;
+        overflow-y: auto;
+        overflow-x: hidden;
+        scrollbar-width: thin;
+        scrollbar-color: rgba(255, 215, 0, 0.45) transparent;
+      }
+      .meta-topbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        margin-bottom: 14px;
+      }
+      .meta-topbar .btn {
+        position: static;
+        margin: 0;
+        padding: 8px 16px;
+        font-size: 15px;
+      }
+      .meta-fame {
+        display: flex;
+        align-items: baseline;
+        gap: 7px;
+        flex: 0 1 auto;
+        min-width: 0;
+        padding: 6px 12px;
+        border: 1px solid rgba(255, 215, 0, 0.45);
+        background: rgba(255, 215, 0, 0.06);
+        color: var(--gold);
+        font-size: 18px;
+        line-height: 1;
+        white-space: nowrap;
+      }
+      .meta-fame span {
+        overflow: hidden;
+        color: #8f879e;
+        font-size: 10px;
+        letter-spacing: 1.6px;
+        text-overflow: ellipsis;
+      }
+      .meta-head {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 16px 18px;
+        margin-bottom: 14px;
+        border: 2px solid rgba(246, 232, 200, 0.6);
+        background: linear-gradient(150deg, rgba(246, 232, 200, 0.06), transparent 62%), #100a14;
+        box-shadow: 5px 5px 0 rgba(255, 51, 51, 0.16);
+        text-align: left;
+      }
+      .meta-kicker {
+        color: var(--neon-magenta);
+        font-size: 10px;
+        letter-spacing: 3px;
+      }
+      .meta-head h1 {
+        margin: 2px 0 4px;
+        color: var(--gold);
+        font-size: clamp(26px, 3.8vw, 38px);
+        line-height: 0.95;
+        text-shadow: 3px 3px 0 #7a0010;
+      }
+      .meta-head p {
+        margin: 0;
+        max-width: 480px;
+        color: #b0a6bd;
+        font-size: 13px;
+        line-height: 1.2;
+      }
+      .meta-owned {
+        flex: 0 0 auto;
+        text-align: right;
+      }
+      .meta-owned b {
+        color: #fff;
+        font-size: 30px;
+        line-height: 1;
+      }
+      .meta-owned span {
+        display: block;
+        color: #8f879e;
+        font-size: 10px;
+        letter-spacing: 1.5px;
+      }
+      .meta-cat {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin: 20px 0 10px;
+        padding-bottom: 6px;
+        border-bottom: 1px solid rgba(246, 232, 200, 0.18);
+        color: var(--gold);
+        font-size: 17px;
+        letter-spacing: 1.4px;
+      }
+      .meta-cat i {
+        color: #6f687c;
+        font-size: 10px;
+        font-style: normal;
+        letter-spacing: 1px;
+      }
+      .meta-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 13px;
+      }
+      .meta-card {
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        border: 2px solid rgba(246, 232, 200, 0.26);
+        background: #120b18;
+        box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.5);
+        transition: transform 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease;
+        animation: metaIn 0.36s cubic-bezier(0.2, 0.8, 0.25, 1) backwards;
+      }
+      .meta-card:hover {
+        transform: translateY(-3px);
+        border-color: rgba(255, 215, 0, 0.75);
+        box-shadow: 6px 7px 0 rgba(0, 0, 0, 0.55), 0 0 18px rgba(255, 215, 0, 0.16);
+      }
+      .meta-card.equipped {
+        border-color: var(--gold);
+        box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.5), inset 0 0 0 1px rgba(255, 215, 0, 0.4);
+      }
+      .meta-card.owned {
+        border-color: rgba(0, 255, 255, 0.4);
+      }
+      .meta-card.locked {
+        opacity: 0.72;
+      }
+      .meta-art {
+        position: relative;
+        aspect-ratio: 3 / 2;
+        overflow: hidden;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+        background: #0b0710;
+      }
+      .meta-art img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+      }
+      .meta-card:hover .meta-art img {
+        transform: scale(1.04);
+      }
+      .meta-badge {
+        position: absolute;
+        top: 7px;
+        left: 7px;
+        padding: 3px 6px;
+        border: 1px solid currentColor;
+        background: rgba(8, 6, 10, 0.8);
+        font-size: 9px;
+        line-height: 1;
+        letter-spacing: 1.2px;
+      }
+      .meta-badge.equipped { color: var(--gold); }
+      .meta-badge.owned { color: #00ffcc; }
+      .meta-badge.price { color: #d8d0e2; }
+      .meta-lv {
+        position: absolute;
+        top: 7px;
+        right: 7px;
+        padding: 3px 6px;
+        border: 1px solid rgba(246, 232, 200, 0.5);
+        background: rgba(8, 6, 10, 0.8);
+        color: #f6e8c8;
+        font-size: 9px;
+        line-height: 1;
+        letter-spacing: 1px;
+      }
+      .meta-body {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        gap: 3px;
+        padding: 9px 10px 10px;
+      }
+      .meta-name {
+        color: #fff;
+        font-size: 18px;
+        line-height: 1;
+        letter-spacing: 0.2px;
+      }
+      .meta-desc2 {
+        display: -webkit-box;
+        overflow: hidden;
+        color: #a89fb4;
+        font-size: 11px;
+        line-height: 1.2;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+      }
+      .meta-actions {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 6px;
+        margin-top: auto;
+        padding-top: 8px;
+      }
+      .meta-price {
+        display: flex;
+        align-items: baseline;
+        gap: 3px;
+        color: var(--gold);
+        font-size: 17px;
+        line-height: 1;
+        text-shadow: 0 0 8px rgba(255, 215, 0, 0.3);
+      }
+      .meta-price span {
+        color: #8f879e;
+        font-size: 9px;
+        letter-spacing: 0.8px;
+      }
+      .meta-price.short {
+        color: #ff7777;
+      }
+      .meta-btn {
+        flex: 0 0 auto;
+        padding: 5px 10px;
+        border: 1px solid currentColor;
+        border-radius: 3px;
+        background: transparent;
+        color: #00ffcc;
+        font-family: inherit;
+        font-size: 12px;
+        letter-spacing: 1px;
+        cursor: pointer;
+        transition: background 0.16s ease, color 0.16s ease;
+      }
+      .meta-btn:hover {
+        background: currentColor;
+        color: #08060a;
+      }
+      .meta-btn.buy { color: var(--gold); }
+      .meta-btn.buy[disabled] {
+        color: #6f687c;
+        border-color: #3a3442;
+        cursor: not-allowed;
+      }
+      .meta-btn.buy[disabled]:hover {
+        background: transparent;
+        color: #6f687c;
+      }
+      .meta-btn.equip { color: #00ffcc; }
+      .meta-btn.unequip { color: var(--gold); }
+      @keyframes metaIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: none; }
+      }
+      @media (max-width: 820px) {
+        .meta-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      }
+      @media (max-width: 560px) {
+        .meta-shell { padding: 10px 10px 30px; }
+        .meta-head { flex-direction: column; align-items: stretch; gap: 10px; padding: 12px; }
+        .meta-owned { text-align: left; }
+        .meta-grid { gap: 9px; }
+        .meta-name { font-size: 15px; }
+        .meta-topbar { flex-wrap: wrap; gap: 8px; }
+        .meta-fame { font-size: 15px; padding: 5px 9px; }
+        .meta-fame span { font-size: 9px; letter-spacing: 1px; }
+      }
+      @media (max-width: 380px) {
+        .meta-grid { grid-template-columns: 1fr; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .meta-card { animation: none; transition: none; }
+        .meta-art img { transition: none; }
       }
       .archive-section {
         border: 1px solid rgba(0, 255, 255, 0.28);
@@ -2359,37 +2652,26 @@
           </div>
         </div>
 
-        <!-- META SHOP (Full Screen Flex) -->
+        <!-- META SHOP -->
         <div id="meta-shop" class="screen-full">
-          <h1
-            style="
-              color: var(--gold);
-              margin: 0;
-              font-size: 35px;
-              flex-shrink: 0;
-            "
-          >
-            TOKO KOSMIK
-          </h1>
-          <div
-            class="fame-display"
-            id="shop-fame"
-            style="margin: 5px 0; flex-shrink: 0"
-          >
-            0 Poin Ketenaran
+          <div class="meta-shell">
+            <div class="meta-topbar">
+              <button class="btn btn-back" onclick="backToMenu()">← KEMBALI</button>
+              <div class="meta-fame" id="shop-fame">0 <span>POIN KETENARAN</span></div>
+            </div>
+            <header class="meta-head">
+              <div>
+                <div class="meta-kicker">KATALOG RESMI SIRKUS</div>
+                <h1>TOKO KOSMIK</h1>
+                <p>Stik, arena, dan relik yang mengubah cara ritual berjalan. Semua pembelian permanen.</p>
+              </div>
+              <div class="meta-owned">
+                <b id="meta-owned-count">0</b>
+                <span id="meta-owned-label">DIMILIKI</span>
+              </div>
+            </header>
+            <div class="meta-container" id="meta-items-container"></div>
           </div>
-          <div
-            style="
-              color: #aaa;
-              margin: 5px 0 10px 0;
-              font-size: 12px;
-              flex-shrink: 0;
-            "
-          >
-            Beli/Pasang Relik, Skin, & Tema (Max 1)
-          </div>
-          <div class="meta-container" id="meta-items-container"></div>
-          <button class="btn btn-back" onclick="backToMenu()">Kembali</button>
         </div>
 
         <!-- COMIC ARCHIVE -->
@@ -5204,68 +5486,115 @@
         document.getElementById("btn-shop").style.display = feat.shop ? "block" : "none";
         document.getElementById("btn-archive").style.display = feat.archive ? "block" : "none";
       }
+      const META_ART = {
+        skin: (id) => `assets/art/meta/skins/${id}.svg`,
+        theme: (id) => `assets/art/meta/themes/${id}.svg`,
+        relic: (id) => `assets/art/meta/relics/${id}.svg`,
+      };
+
+      const META_CATEGORY_META = {
+        skin: { title: "KOLEKSI PADDLE", icon: "🎭", note: "Stik yang mengubah bentuk dan perilaku" },
+        theme: { title: "TEMA ARENA", icon: "🌌", note: "Panggung dengan aturan dan musik sendiri" },
+        relic: { title: "RELIK KOSMIK", icon: "🔮", note: "Aturan tambahan, maksimal 3 terpasang" },
+      };
+
+      function metaOwned(type, id) {
+        if (type === "skin") return savedData.inventory.skins.includes(id);
+        if (type === "theme") return savedData.inventory.themes.includes(id);
+        return savedData.inventory.relics.includes(id);
+      }
+
+      function metaEquipped(type, id) {
+        if (type === "relic") return (savedData.equipped.relics || []).includes(id);
+        return savedData.equipped[type] === id;
+      }
+
+      function metaLevel(type, id) {
+        if (type === "skin") return savedData.stats.mastery?.skin?.[id + "_lv"] || 1;
+        if (type === "theme") return savedData.stats.mastery?.theme?.[id + "_lv"] || 1;
+        return 0;
+      }
+
       function openMetaShop() {
         playSfx("ui", { bus: "feedback", volume: 0.28, fallback: () => playPluk() });
         document
           .querySelectorAll(".screen, .screen-full")
           .forEach((e) => (e.style.display = "none"));
         document.getElementById("meta-shop").style.display = "flex";
-        document.getElementById("shop-fame").innerText =
-          `${savedData.fame} Poin Ketenaran`;
+
+        const fameEl = document.getElementById("shop-fame");
+        fameEl.innerHTML = `${savedData.fame} <span>POIN KETENARAN</span>`;
+
+        let visibleItems = META_ITEMS.filter(
+          (i) =>
+            !i.hiddenUntilOwned ||
+            savedData.inventory.skins.includes(i.id) ||
+            savedData.inventory.themes.includes(i.id) ||
+            savedData.inventory.relics.includes(i.id),
+        );
+        let ownedCount = visibleItems.filter((i) => metaOwned(i.type, i.id)).length;
+        document.getElementById("meta-owned-count").innerText = ownedCount;
+        document.getElementById("meta-owned-label").innerText = `DARI ${visibleItems.length} DIMILIKI`;
+
         let c = document.getElementById("meta-items-container");
         c.innerHTML = "";
 
-        const categories = [
-          { type: "skin", title: "🎭 KOLEKSI PADDLE" },
-          { type: "theme", title: "🌌 TEMA ARENA" },
-          { type: "relic", title: "🔮 RELIK KOSMIK" },
-        ];
-        categories.forEach((cat) => {
-          let items = META_ITEMS.filter(
-            (i) =>
-              i.type === cat.type &&
-              (!i.hiddenUntilOwned ||
-                savedData.inventory.skins.includes(i.id) ||
-                savedData.inventory.themes.includes(i.id) ||
-                savedData.inventory.relics.includes(i.id)),
-          );
-          if (items.length > 0) {
-            let header = document.createElement("div");
-            header.style.cssText =
-              "color: var(--gold); font-size: 22px; margin-top: 15px; margin-bottom: 5px; border-bottom: 1px dashed #555; padding-bottom: 5px; text-shadow: 0 0 5px var(--gold);";
-            header.innerText = cat.title;
-            c.appendChild(header);
+        const categories = ["skin", "theme", "relic"];
+        categories.forEach((type) => {
+          let items = visibleItems.filter((i) => i.type === type);
+          if (items.length === 0) return;
+          const meta = META_CATEGORY_META[type];
 
-            items.forEach((item) => {
-              let isOwned =
-                savedData.inventory.skins.includes(item.id) ||
-                savedData.inventory.themes.includes(item.id) ||
-                savedData.inventory.relics.includes(item.id);
-              let isEquipped =
-                savedData.equipped.skin === item.id ||
-                savedData.equipped.theme === item.id ||
-                (savedData.equipped.relics && savedData.equipped.relics.includes(item.id));
-              let div = document.createElement("div");
-              div.className = "meta-item";
-              let btnHtml = "";
-              if (isEquipped)
-                btnHtml = `<button class="btn btn-gold" style="width:auto; padding:4px 10px; font-size:16px;" onclick="unequipItem('${item.type}', '${item.id}')">LEPAS</button>`;
-              else if (isOwned)
-                btnHtml = `<button class="btn" style="width:auto; padding:4px 10px; font-size:16px;" onclick="equipItem('${item.type}','${item.id}')">PAKAI</button>`;
-              else {
-                let canAfford = savedData.fame >= item.price;
-                btnHtml = `<button class="btn ${canAfford ? "" : "disabled"}" style="width:auto; padding:4px 10px; font-size:16px; border-color:${canAfford ? "var(--neon-cyan)" : "red"};" ${canAfford ? `onclick="buyMeta('${item.type}', '${item.id}', ${item.price})"` : ""}>BELI (${item.price})</button>`;
-              }
-              let lv = 1;
-              if (savedData.stats.mastery) {
-                if (item.type === "skin") lv = savedData.stats.mastery.skin[item.id + "_lv"] || 1;
-                if (item.type === "theme") lv = savedData.stats.mastery.theme[item.id + "_lv"] || 1;
-              }
-              
-              div.innerHTML = `<div><div style="font-size:20px; color:${item.type === "relic" ? "var(--gold)" : item.type === "theme" ? "var(--alien-green)" : "var(--neon-cyan)"};">${item.name} ${item.type !== 'relic' ? `[Lv ${lv}]` : ''}</div><div class="meta-desc">${item.desc}</div></div>${btnHtml}`;
-              c.appendChild(div);
-            });
-          }
+          let head = document.createElement("div");
+          head.className = "meta-cat";
+          head.innerHTML = `${meta.icon} ${meta.title} <i>${items.filter((i) => metaOwned(type, i.id)).length}/${items.length} · ${meta.note}</i>`;
+          c.appendChild(head);
+
+          let grid = document.createElement("div");
+          grid.className = "meta-grid";
+
+          items.forEach((item, idx) => {
+            const owned = metaOwned(type, item.id);
+            const equipped = metaEquipped(type, item.id);
+            const canAfford = savedData.fame >= item.price;
+            const lv = metaLevel(type, item.id);
+            const art = META_ART[type](item.id);
+
+            let card = document.createElement("article");
+            card.className = `meta-card${equipped ? " equipped" : owned ? " owned" : ""}${!owned && !canAfford ? " locked" : ""}`;
+            card.style.animationDelay = `${Math.min(idx * 0.03, 0.24)}s`;
+            card.innerHTML = `
+              <div class="meta-art">
+                <img loading="lazy" decoding="async" src="${art}" alt="${escapeHTML(item.name)}" />
+                <span class="meta-badge ${equipped ? "equipped" : owned ? "owned" : "price"}">${equipped ? "TERPASANG" : owned ? "DIMILIKI" : "BELUM"}</span>
+                ${type !== "relic" ? `<span class="meta-lv">Lv ${lv}</span>` : ""}
+              </div>
+              <div class="meta-body">
+                <div class="meta-name">${escapeHTML(item.name)}</div>
+                <div class="meta-desc2">${escapeHTML(item.desc)}</div>
+                <div class="meta-actions">
+                  <div class="meta-price${!owned && !canAfford ? " short" : ""}">${owned ? "—" : `${item.price}<span>FAME</span>`}</div>
+                  ${equipped
+                    ? `<button type="button" class="meta-btn unequip" data-act="unequip" data-type="${type}" data-id="${item.id}">LEPAS</button>`
+                    : owned
+                      ? `<button type="button" class="meta-btn equip" data-act="equip" data-type="${type}" data-id="${item.id}">PAKAI</button>`
+                      : `<button type="button" class="meta-btn buy" data-act="buy" data-type="${type}" data-id="${item.id}" data-price="${item.price}" ${canAfford ? "" : "disabled"}>BELI</button>`}
+                </div>
+              </div>`;
+            grid.appendChild(card);
+          });
+          c.appendChild(grid);
+        });
+
+        c.querySelectorAll(".meta-btn").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            const act = btn.dataset.act;
+            const type = btn.dataset.type;
+            const id = btn.dataset.id;
+            if (act === "buy") buyMeta(type, id, Number(btn.dataset.price));
+            else if (act === "equip") equipItem(type, id);
+            else unequipItem(type, id);
+          });
         });
       }
       function buyMeta(type, id, price) {
@@ -9501,112 +9830,226 @@
       function drawPaddleAsset(x, y, w, h, skin, options = {}) {
         ctx.save();
         if (options.alpha) ctx.globalAlpha = options.alpha;
+        if (options.mirror) {
+          ctx.translate(canvas.width, 0);
+          ctx.scale(-1, 1);
+        }
+        let cx = x + w / 2;
+        let cy = y + h / 2;
+        let broken = hasTorment("t_patah") || (skin === "skin_patah" && !hasEffect("broken_ctrl"));
+
+        // --- shared silhouette so collision reads identically across skins ---
+        let drawBody = (inset = 0) => {
+          let bx = x + inset;
+          let bw = w - inset * 2;
+          if (broken) {
+            ctx.beginPath();
+            ctx.rect(bx, y, bw / 2 - 20, h);
+            ctx.rect(bx + bw / 2 + 20, y, bw / 2 - 20, h);
+          } else {
+            roundedRect(ctx, bx, y, bw, h, Math.min(h / 2, 14));
+          }
+        };
+
         if (skin === "skin_sendok") {
-          let g = ctx.createLinearGradient(x, y, x, y + h * 2);
-          g.addColorStop(0, "#ffffff");
-          g.addColorStop(0.5, "#9aa0a6");
-          g.addColorStop(1, "#d9d9d9");
+          // Bent spoon: metal bowl with a warped rim.
+          let g = ctx.createLinearGradient(x, y - h * 0.6, x, y + h * 1.6);
+          g.addColorStop(0, "#fbfdff");
+          g.addColorStop(0.45, "#c9d2dc");
+          g.addColorStop(1, "#7b848f");
           ctx.fillStyle = g;
           ctx.beginPath();
-          ctx.ellipse(x + w / 2, y + h / 2, w / 2, h * 0.9, -0.04, 0, Math.PI * 2);
+          ctx.moveTo(x, cy);
+          ctx.quadraticCurveTo(cx, y - h * 0.95, x + w, cy - h * 0.1);
+          ctx.quadraticCurveTo(cx, y + h * 1.85, x, cy);
           ctx.fill();
-          ctx.strokeStyle = "#5f646a";
+          ctx.strokeStyle = "#4f565e";
+          ctx.lineWidth = 2;
+          ctx.stroke();
+          ctx.strokeStyle = "rgba(255,255,255,0.65)";
+          ctx.lineWidth = 3;
+          ctx.beginPath();
+          ctx.moveTo(x + 10, cy - h * 0.18);
+          ctx.quadraticCurveTo(cx, y - h * 0.55, x + w - 14, cy - h * 0.1);
+          ctx.stroke();
+          // bent handle
+          ctx.strokeStyle = "#6b737c";
+          ctx.lineWidth = Math.max(5, h * 0.42);
+          ctx.lineCap = "round";
+          ctx.beginPath();
+          ctx.moveTo(x + w - 6, cy);
+          ctx.quadraticCurveTo(x + w + 16, cy - h * 0.5, x + w + 6, cy + h * 0.85);
           ctx.stroke();
           ctx.strokeStyle = "#7d4cff";
+          ctx.lineWidth = 2;
           ctx.beginPath();
-          ctx.arc(x + w - 16, y + h / 2, 12, 0, Math.PI * 2);
+          ctx.arc(x + w - 14, cy, 11, 0, Math.PI * 2);
           ctx.stroke();
         } else if (skin === "skin_remote") {
-          ctx.fillStyle = "#202329";
-          roundedRect(ctx, x, y - 6, w, h + 12, 8);
+          // Broken TV remote: dark shell, D-pad, four coloured buttons.
+          ctx.fillStyle = "#1c1f24";
+          roundedRect(ctx, x - 2, y - h * 0.55, w + 4, h * 1.1 + 6, 8);
           ctx.fill();
-          ctx.strokeStyle = "#737981";
+          ctx.strokeStyle = "#5d646d";
+          ctx.lineWidth = 2;
           ctx.stroke();
+          ctx.fillStyle = "#0d0f12";
+          roundedRect(ctx, x + 8, y - h * 0.4, w * 0.28, h * 0.34, 3);
+          ctx.fill();
+          ctx.fillStyle = "#2b3037";
+          ctx.fillRect(x + w * 0.44, y - h * 0.28, 12, 4);
+          ctx.fillRect(x + w * 0.44, y - h * 0.12, 12, 4);
           ["#ff3333", "#39ff14", "#00ffff", "#ffd700"].forEach((c, i) => {
             ctx.fillStyle = c;
             ctx.beginPath();
-            ctx.arc(x + 20 + i * 16, y + h / 2, 4, 0, Math.PI * 2);
+            ctx.arc(x + w * 0.62 + i * 13, cy + h * 0.06, 4.2, 0, Math.PI * 2);
             ctx.fill();
           });
-          ctx.fillStyle = "#aaa";
-          ctx.fillRect(x + w - 38, y + h / 2 - 3, 24, 6);
+          ctx.fillStyle = "#8b1f1f";
+          roundedRect(ctx, x + w - 26, cy - h * 0.22, 14, h * 0.42, 3);
+          ctx.fill();
         } else if (skin === "skin_ikan") {
-          ctx.fillStyle = "rgba(180,235,255,0.88)";
+          // Frozen fish: pale body, tail fin, frost spines.
+          let g = ctx.createLinearGradient(x, y, x, y + h * 1.4);
+          g.addColorStop(0, "#e8fbff");
+          g.addColorStop(0.55, "#a8dff2");
+          g.addColorStop(1, "#5c9bb4");
+          ctx.fillStyle = g;
           ctx.beginPath();
-          ctx.ellipse(x + w / 2, y + h / 2, w / 2, h * 1.05, 0, 0, Math.PI * 2);
+          ctx.ellipse(cx, cy, w / 2, h * 1.15, 0, 0, Math.PI * 2);
           ctx.fill();
-          ctx.fillStyle = "rgba(255,255,255,0.72)";
-          ctx.beginPath();
-          ctx.moveTo(x + 8, y + h / 2);
-          ctx.lineTo(x - 16, y - 4);
-          ctx.lineTo(x - 16, y + h + 4);
-          ctx.closePath();
-          ctx.fill();
-          ctx.strokeStyle = "#e8fbff";
-          for (let i = 0; i < 6; i++) {
-            ctx.beginPath();
-            ctx.moveTo(x + 18 + i * 18, y - 7);
-            ctx.lineTo(x + 25 + i * 18, y + 4);
-            ctx.stroke();
-          }
-          ctx.fillStyle = "#051115";
-          ctx.beginPath();
-          ctx.arc(x + w - 20, y + h / 2 - 2, 3, 0, Math.PI * 2);
-          ctx.fill();
-        } else if (skin === "skin_manajer" || skin === "skin_tongkat") {
-          ctx.strokeStyle = "#3a1808";
-          ctx.lineWidth = Math.max(8, h);
-          ctx.lineCap = "round";
-          ctx.beginPath();
-          ctx.moveTo(x + 6, y + h / 2);
-          ctx.lineTo(x + w - 18, y + h / 2);
-          ctx.stroke();
-          ctx.strokeStyle = "#ffd700";
+          ctx.strokeStyle = "#2f5f74";
           ctx.lineWidth = 2;
           ctx.stroke();
-          ctx.fillStyle = "#7d2cff";
-          ctx.shadowBlur = 12;
-          ctx.shadowColor = "#7d2cff";
+          ctx.fillStyle = "#bdeaf8";
           ctx.beginPath();
-          ctx.arc(x + w - 8, y + h / 2, 9, 0, Math.PI * 2);
+          ctx.moveTo(x + 6, cy);
+          ctx.lineTo(x - 20, cy - h * 1.5);
+          ctx.lineTo(x - 20, cy + h * 1.5);
+          ctx.closePath();
           ctx.fill();
-          ctx.shadowBlur = 0;
-        } else {
-          let loyal = skin === "skin_glarp_setia";
-          let g = ctx.createLinearGradient(x, y, x, y + h);
-          g.addColorStop(0, "#ead1a4");
-          g.addColorStop(0.45, "#c79c6c");
-          g.addColorStop(1, "#9b6c43");
-          ctx.fillStyle = g;
-          roundedRect(ctx, x, y - 4, w, h + 8, 12);
-          ctx.fill();
-          ctx.strokeStyle = "#6b4528";
+          ctx.strokeStyle = "#2f5f74";
           ctx.stroke();
-          ctx.strokeStyle = "rgba(80,45,20,0.42)";
+          ctx.strokeStyle = "rgba(232,251,255,0.9)";
+          ctx.lineWidth = 2;
           for (let i = 0; i < 5; i++) {
             ctx.beginPath();
-            ctx.moveTo(x + 10, y + 1 + i * 3);
-            ctx.lineTo(x + w - 10, y + Math.sin(i) * 2 + i * 3);
+            ctx.moveTo(x + 16 + i * 20, y - h * 0.45);
+            ctx.lineTo(x + 22 + i * 20, y + h * 0.05);
             ctx.stroke();
           }
-          if (skin === "skin_glarp" || loyal) {
-            ctx.fillStyle = "#15120e";
-            ctx.font = "13px VT323";
-            ctx.textAlign = "center";
-            ctx.fillText("GLARP", x + w / 2, y + h / 2 + 4);
-            ctx.fillStyle = loyal ? "#ffd700" : "#ff3333";
-            ctx.fillRect(x + w / 2 - 13, y - 1, 6, 4);
-            ctx.fillRect(x + w / 2 + 8, y - 1, 6, 4);
-          }
-          if (skin === "skin_patah" || hasTorment("t_patah")) {
-            ctx.strokeStyle = "#120b06";
-            ctx.lineWidth = 2;
+          ctx.fillStyle = "#06161c";
+          ctx.beginPath();
+          ctx.arc(x + w - 20, cy - h * 0.1, 3.6, 0, Math.PI * 2);
+          ctx.fill();
+        } else if (skin === "skin_tongkat" || skin === "skin_manajer") {
+          // Manager's wand: dark shaft, gold ferrule, violet orb.
+          let shaft = h * 0.62;
+          ctx.strokeStyle = "#2a1006";
+          ctx.lineWidth = shaft;
+          ctx.lineCap = "round";
+          ctx.beginPath();
+          ctx.moveTo(x + 8, cy);
+          ctx.lineTo(x + w - 22, cy);
+          ctx.stroke();
+          ctx.strokeStyle = "#5a2a12";
+          ctx.lineWidth = shaft * 0.55;
+          ctx.beginPath();
+          ctx.moveTo(x + 12, cy - shaft * 0.18);
+          ctx.lineTo(x + w - 26, cy - shaft * 0.18);
+          ctx.stroke();
+          ctx.fillStyle = "#ffd700";
+          ctx.fillRect(x + w - 30, cy - shaft * 0.62, 8, shaft * 1.24);
+          ctx.fillStyle = skin === "skin_manajer" ? "#ff3333" : "#7d2cff";
+          ctx.shadowBlur = 16;
+          ctx.shadowColor = skin === "skin_manajer" ? "#ff3333" : "#7d2cff";
+          ctx.beginPath();
+          ctx.arc(x + w - 10, cy, Math.max(7, h * 0.7), 0, Math.PI * 2);
+          ctx.fill();
+          ctx.shadowBlur = 0;
+          ctx.fillStyle = "rgba(255,255,255,0.8)";
+          ctx.beginPath();
+          ctx.arc(x + w - 13, cy - 4, Math.max(2, h * 0.2), 0, Math.PI * 2);
+          ctx.fill();
+        } else if (skin === "skin_glarp" || skin === "skin_glarp_setia") {
+          // Glarp: living green paddle with eyes.
+          let loyal = skin === "skin_glarp_setia";
+          let g = ctx.createLinearGradient(x, y, x, y + h);
+          g.addColorStop(0, loyal ? "#c8ff9c" : "#9dff86");
+          g.addColorStop(0.5, loyal ? "#39c04a" : "#39e04f");
+          g.addColorStop(1, "#0e6b24");
+          ctx.fillStyle = g;
+          drawBody(0);
+          ctx.fill();
+          ctx.strokeStyle = "#063d12";
+          ctx.lineWidth = 2;
+          ctx.stroke();
+          // eyes
+          let eyeY = cy - h * 0.12;
+          [-w * 0.16, w * 0.16].forEach((dx) => {
+            ctx.fillStyle = "#0b2a10";
             ctx.beginPath();
-            ctx.moveTo(x + w / 2 - 8, y - 4);
-            ctx.lineTo(x + w / 2 + 2, y + h / 2);
-            ctx.lineTo(x + w / 2 - 4, y + h + 4);
+            ctx.ellipse(cx + dx, eyeY, Math.max(3, h * 0.26), Math.max(4, h * 0.34), 0, 0, Math.PI * 2);
+            ctx.fill();
+            ctx.fillStyle = "#fff";
+            ctx.beginPath();
+            ctx.arc(cx + dx - 1, eyeY - 2, Math.max(1, h * 0.1), 0, Math.PI * 2);
+            ctx.fill();
+          });
+          // mouth
+          ctx.strokeStyle = "#063d12";
+          ctx.lineWidth = 1.6;
+          ctx.beginPath();
+          ctx.moveTo(cx - 7, cy + h * 0.3);
+          ctx.quadraticCurveTo(cx, cy + h * 0.55, cx + 7, cy + h * 0.3);
+          ctx.stroke();
+          if (loyal) {
+            ctx.fillStyle = "#ffd700";
+            ctx.beginPath();
+            ctx.moveTo(cx - 9, y - 1);
+            ctx.lineTo(cx - 4, y - 7);
+            ctx.lineTo(cx + 1, y - 1);
+            ctx.lineTo(cx + 6, y - 7);
+            ctx.lineTo(cx + 11, y - 1);
+            ctx.closePath();
+            ctx.fill();
+          }
+        } else {
+          // Default wood stick (also used as fallback for unknown skins).
+          let g = ctx.createLinearGradient(x, y, x, y + h);
+          g.addColorStop(0, "#f3e2c2");
+          g.addColorStop(0.45, "#d8b984");
+          g.addColorStop(1, "#9b6c43");
+          ctx.fillStyle = g;
+          drawBody(0);
+          ctx.fill();
+          ctx.strokeStyle = "#6b4528";
+          ctx.lineWidth = 2;
+          ctx.stroke();
+          ctx.strokeStyle = "rgba(90,60,30,0.35)";
+          ctx.lineWidth = 1.2;
+          for (let i = 0; i < 3; i++) {
+            ctx.beginPath();
+            ctx.moveTo(x + 12, y + 3 + i * (h / 3.4));
+            ctx.lineTo(x + w - 12, y + 4 + i * (h / 3.4));
             ctx.stroke();
           }
+        }
+
+        // --- shared overlays ---
+        if (broken) {
+          ctx.strokeStyle = "#120b06";
+          ctx.lineWidth = 2.4;
+          ctx.beginPath();
+          ctx.moveTo(cx - 9, y - 3);
+          ctx.lineTo(cx + 1, cy);
+          ctx.lineTo(cx - 5, y + h + 3);
+          ctx.stroke();
+          ctx.beginPath();
+          ctx.moveTo(cx + 9, y - 3);
+          ctx.lineTo(cx - 1, cy);
+          ctx.lineTo(cx + 5, y + h + 3);
+          ctx.stroke();
         }
         if (hasEffect("magnet") || hasEffect("magnet_strong") || hasEffect("primeval")) {
           ctx.strokeStyle = "rgba(0,255,255,0.72)";
@@ -10042,24 +10485,13 @@
           ctx.strokeRect(0, 0, canvas.width, canvas.height);
         }
 
-        let pColor = "#e0c097";
         let isGiant = false;
-        let isWavy = false;
         let activeSkin = savedData.equipped.skin;
         if (state.remoteShape && state.remoteShape !== "normal")
           activeSkin = state.remoteShape;
 
         if (activeSkin === "skin_raksasa") isGiant = true;
-        if (activeSkin === "skin_ikan") pColor = "#add8e6";
-        if (activeSkin === "skin_sendok") {
-          pColor = "#c0c0c0";
-          isWavy = true;
-        }
-        if (activeSkin === "skin_manajer") pColor = "#ff3333";
-        if (tTheme === "theme_retrowave" || tTheme === "theme_neon")
-          pColor = "#00ffff";
 
-        ctx.fillStyle = pColor;
         if (state.currentModifier && state.currentModifier.id === "m_getar")
           ctx.translate((Math.random() - 0.5) * 4, 0);
 
@@ -10072,10 +10504,6 @@
           dX -= paddle.w * 0.25;
           dH *= 1.5;
           dY -= 5;
-        }
-        if (activeSkin === "skin_patah") {
-          dX += dW * 0.05;
-          dW *= 0.9;
         }
 
         if (state.activeTwist?.id === "tw_mouse") {
@@ -10091,60 +10519,22 @@
           );
           ctx.stroke();
         } else {
-          ctx.beginPath();
-          if (hasTorment("t_patah") || (savedData.equipped.skin === "skin_patah" && !hasEffect("broken_ctrl"))) {
-            ctx.rect(dX, dY, dW / 2 - 20, dH);
-            ctx.rect(dX + dW / 2 + 20, dY, dW / 2 - 20, dH);
-          } else {
-            if (isWavy) {
-              ctx.ellipse(
-                dX + dW / 2,
-                dY + dH / 2,
-                dW / 2,
-                dH,
-                0,
-                0,
-                Math.PI * 2,
-              );
-            } else ctx.rect(dX, dY, dW, dH);
-          }
-          ctx.fill();
+          // Skin-aware paddle rendering. drawPaddleAsset owns the silhouette so
+          // every skin keeps the same collision footprint.
+          drawPaddleAsset(dX, dY, dW, dH, activeSkin);
 
           if (hasEffect("mirror_pad") || hasEffect("mirror_inf")) {
-            let mirrorX = canvas.width - dX - dW;
-            ctx.beginPath();
-            if (hasTorment("t_patah") || (savedData.equipped.skin === "skin_patah" && !hasEffect("broken_ctrl"))) {
-              ctx.rect(mirrorX, dY, dW / 2 - 20, dH);
-              ctx.rect(mirrorX + dW / 2 + 20, dY, dW / 2 - 20, dH);
-            } else {
-              if (isWavy) {
-                ctx.ellipse(mirrorX + dW / 2, dY + dH / 2, dW / 2, dH, 0, 0, Math.PI * 2);
-              } else ctx.rect(mirrorX, dY, dW, dH);
-            }
-            ctx.fill();
+            drawPaddleAsset(dX, dY, dW, dH, activeSkin, { alpha: 0.85, mirror: true });
           }
 
           if (hasEffect("double_paddle")) {
+            ctx.save();
             ctx.globalAlpha = 0.75;
-            ctx.fillRect(dX, 92, dW, dH);
-            ctx.globalAlpha = 1;
+            drawPaddleAsset(dX, 92, dW, dH, activeSkin);
+            ctx.restore();
           }
 
-          if (activeSkin === "skin_manajer") {
-            ctx.fillStyle = "#fff";
-            ctx.fillRect(dX + 20, dY + 2, 5, 5);
-            ctx.fillRect(dX + dW - 25, dY + 2, 5, 5);
-          }
-          if (activeSkin === "skin_glarp") {
-            ctx.fillStyle = "#fff";
-            ctx.fillRect(dX + dW / 2 - 5, dY + 2, 10, 5);
-            ctx.fillStyle = "#f00";
-            ctx.fillRect(dX + dW / 2 - 2, dY + 3, 4, 3);
-          }
-          if (
-            hasEffect("magnet") ||
-            hasEffect("magnet_strong")
-          ) {
+          if (hasEffect("magnet") || hasEffect("magnet_strong")) {
             ctx.fillStyle = "rgba(0,255,255,0.3)";
             ctx.fillRect(paddle.x, paddle.y - 5, paddle.w, 5);
           }

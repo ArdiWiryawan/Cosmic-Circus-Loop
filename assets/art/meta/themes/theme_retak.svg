@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" width="480" height="320" role="img" aria-labelledby="t" data-art-id="theme_retak">
+<title id="t">theme_retak</title>
+<defs>
+  <radialGradient id="bg" cx="46%" cy="34%" r="86%">
+    <stop offset="0" stop-color="#2a1c0e"/>
+    <stop offset=".55" stop-color="#0a0704"/>
+    <stop offset="1" stop-color="#0b0710"/>
+  </radialGradient>
+  <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#00ffff" stop-opacity=".38"/>
+    <stop offset=".62" stop-color="#00ffff" stop-opacity=".1"/>
+    <stop offset="1" stop-color="#00ffff" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#00ffff"/>
+    <stop offset="1" stop-color="#f6e8c8"/>
+  </linearGradient>
+  <pattern id="ht" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(22)">
+    <circle cx="3.5" cy="3.5" r="1.7" fill="#0b0710" opacity=".85"/>
+  </pattern>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" y="1" fill="#f6e8c8" opacity=".05"/>
+  </pattern>
+  <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="6"/>
+  </filter>
+  
+</defs>
+<rect x="0" y="0" width="480" height="320" fill="#1a1208"/>
+  <rect x="0" y="0" width="480" height="320" fill="#b07a45" opacity=".55"/>
+  <g stroke="#8a5c30" stroke-width="1.2" opacity=".6">
+    <path d="M0 60h480M0 120h480M0 180h480M0 240h480"/>
+  </g>
+  <g stroke="#00ffff" stroke-width="2" opacity=".9" fill="none"><path d="M403.75 109.7l2.24 65.59l5.16 50.94"/><path d="M461.75 71.33l-15.55 65.77l-32.83 55"/><path d="M25.66 299.79l35.26 74.18l15.19 60.88"/><path d="M0.35 239.12l-34.37 42.61l-13.52 47.22"/><path d="M19.96 254.73l-34.08 52.13l4.57 64.47"/><path d="M359.4 242.06l-4.48 63.58l29.03 68.02"/><path d="M431.13 230.14l-31.62 64.36l2.55 30.33"/></g>
+  <g stroke="#ff00ff" stroke-width="1.6" opacity=".7" fill="none"><path d="M403.75 109.7l2.24 65.59l5.16 50.94"/><path d="M461.75 71.33l-15.55 65.77l-32.83 55"/><path d="M25.66 299.79l35.26 74.18l15.19 60.88"/><path d="M0.35 239.12l-34.37 42.61l-13.52 47.22"/><path d="M19.96 254.73l-34.08 52.13l4.57 64.47"/><path d="M359.4 242.06l-4.48 63.58l29.03 68.02"/><path d="M431.13 230.14l-31.62 64.36l2.55 30.33"/></g>
+  <g fill="#0b0710" opacity=".5"><rect x="0" y="200" width="480" height="10"/></g>
+<rect x="0" y="0" width="480" height="320" fill="url(#halo)" opacity=".35"/>
+<rect x="0" y="0" width="480" height="320" fill="url(#bg)"/>
+<rect x="0" y="0" width="480" height="320" fill="url(#scan)"/>
+<rect x="8" y="8" width="464" height="304" fill="none" stroke="#00ffff" stroke-opacity=".55" stroke-width="2"/>
+<rect x="14" y="14" width="452" height="292" fill="none" stroke="#0b0710" stroke-opacity=".6" stroke-width="1"/>
+<g stroke="#00ffff" stroke-width="2.5" stroke-linecap="round" opacity=".8">
+  <path d="M8 34V8h26"/><path d="M446 8h26v26"/>
+  <path d="M8 286v26h26"/><path d="M472 286v26h-26"/>
+</g>
+<text x="460" y="302" text-anchor="end" font-family="monospace" font-size="9" letter-spacing="2.4" fill="#00ffff" opacity=".5">ARENA</text>
+</svg>

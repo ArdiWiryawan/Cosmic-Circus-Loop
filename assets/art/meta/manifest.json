@@ -1,0 +1,115 @@
+{
+  "count": 22,
+  "items": [
+    {
+      "id": "skin_default",
+      "file": "assets/art/meta/skins/skin_default.svg",
+      "bytes": 3932
+    },
+    {
+      "id": "skin_glarp",
+      "file": "assets/art/meta/skins/skin_glarp.svg",
+      "bytes": 4243
+    },
+    {
+      "id": "skin_glarp_setia",
+      "file": "assets/art/meta/skins/skin_glarp_setia.svg",
+      "bytes": 4263
+    },
+    {
+      "id": "skin_sendok",
+      "file": "assets/art/meta/skins/skin_sendok.svg",
+      "bytes": 3916
+    },
+    {
+      "id": "skin_remote",
+      "file": "assets/art/meta/skins/skin_remote.svg",
+      "bytes": 4277
+    },
+    {
+      "id": "skin_patah",
+      "file": "assets/art/meta/skins/skin_patah.svg",
+      "bytes": 4192
+    },
+    {
+      "id": "skin_ikan",
+      "file": "assets/art/meta/skins/skin_ikan.svg",
+      "bytes": 4193
+    },
+    {
+      "id": "skin_tongkat",
+      "file": "assets/art/meta/skins/skin_tongkat.svg",
+      "bytes": 4202
+    },
+    {
+      "id": "skin_manajer",
+      "file": "assets/art/meta/skins/skin_manajer.svg",
+      "bytes": 4174
+    },
+    {
+      "id": "theme_piknik",
+      "file": "assets/art/meta/themes/theme_piknik.svg",
+      "bytes": 8483
+    },
+    {
+      "id": "theme_neon",
+      "file": "assets/art/meta/themes/theme_neon.svg",
+      "bytes": 3180
+    },
+    {
+      "id": "theme_retak",
+      "file": "assets/art/meta/themes/theme_retak.svg",
+      "bytes": 3202
+    },
+    {
+      "id": "theme_lovecraft",
+      "file": "assets/art/meta/themes/theme_lovecraft.svg",
+      "bytes": 2836
+    },
+    {
+      "id": "theme_kuali",
+      "file": "assets/art/meta/themes/theme_kuali.svg",
+      "bytes": 2815
+    },
+    {
+      "id": "theme_panggung",
+      "file": "assets/art/meta/themes/theme_panggung.svg",
+      "bytes": 2727
+    },
+    {
+      "id": "theme_manajer",
+      "file": "assets/art/meta/themes/theme_manajer.svg",
+      "bytes": 2870
+    },
+    {
+      "id": "R01",
+      "file": "assets/art/meta/relics/R01.svg",
+      "bytes": 3544
+    },
+    {
+      "id": "R02",
+      "file": "assets/art/meta/relics/R02.svg",
+      "bytes": 3536
+    },
+    {
+      "id": "R03",
+      "file": "assets/art/meta/relics/R03.svg",
+      "bytes": 3522
+    },
+    {
+      "id": "R04",
+      "file": "assets/art/meta/relics/R04.svg",
+      "bytes": 3592
+    },
+    {
+      "id": "R05",
+      "file": "assets/art/meta/relics/R05.svg",
+      "bytes": 3610
+    },
+    {
+      "id": "R06",
+      "file": "assets/art/meta/relics/R06.svg",
+      "bytes": 3761
+    }
+  ]
+}

@@ -63,12 +63,14 @@ Cosmic-Circus-Loop/
 │   │   ├── modifiers/              # 8 curse modifiers
 │   │   ├── bosses/                 # 21 mini bosses + 3 Manager phases
 │   │   ├── ui/                     # 5 final-boss hazard icons
-│   │   └── comic/                  # 34 comic archive panels + manifest
+│   │   ├── comic/                  # 34 comic archive panels + manifest
+│   │   └── meta/                   # 22 shop assets: 9 skins, 7 themes, 6 relics
 │   └── audio/                      # Music and SFX
 ├── scripts/
 │   ├── generate-art.mjs            # Builds the 76 card/boss/UI SVGs
 │   ├── audit-powerups.mjs          # Verifies every tag has a real effect
-│   └── comic/                      # Comic panel generator + integrity check
+│   ├── comic/                      # Comic panel generator + integrity check
+│   └── meta/                       # Shop artwork generator + integrity check
 ├── docs/game-design/               # GDD, boss bible, art direction, UI flow
 └── legacy/                         # Previous GitHub version
 ```
@@ -104,6 +106,8 @@ All artwork is authored as procedural SVG, so it can be rebuilt at any time:
 node scripts/generate-art.mjs   # 76 card, boss, and UI assets
 node scripts/comic/generate.mjs # 34 comic panels + manifest
 node scripts/comic/verify.mjs   # art <-> achievement mapping, format, size
+node scripts/meta/generate.mjs  # 22 shop assets (skins, themes, relics)
+node scripts/meta/verify.mjs    # every shop item has artwork
 node scripts/audit-powerups.mjs # every power-up/fusion/illegal tag has an effect
 ```
 
